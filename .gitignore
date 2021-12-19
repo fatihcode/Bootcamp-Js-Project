@@ -7,6 +7,10 @@
 *.xls
 *.ppt
 
+#Archive
+*.zip
+*.7z
+
 
 # Word temporary
 ~$*.doc*
