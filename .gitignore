@@ -1,4 +1,17 @@
-### MicrosoftOffice ###
+# Archive
+*.zip
+*.7z
+
+# System
+*.ini
+
+# Adobe
+*.pdf
+*.psd
+*.ai
+*.eps
+
+# MicrosoftOffice
 *.tmp
 *.docx
 *.xlsx
@@ -6,10 +19,6 @@
 *.doc
 *.xls
 *.ppt
-
-#Archive
-*.zip
-*.7z
 
 
 # Word temporary
