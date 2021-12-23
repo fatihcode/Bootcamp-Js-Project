@@ -4,6 +4,8 @@
 
 # System
 *.ini
+.DS_Store
+.log
 
 # Adobe
 *.pdf
@@ -20,22 +22,12 @@
 *.xls
 *.ppt
 
-
-# Word temporary
+# MicrosoftOffice temporary
 ~$*.doc*
-
-# Word Auto Backup File
-Backup of *.doc*
-
-# Excel temporary
-~$*.xls*
-
-# Excel Backup File
-*.xlk
-
-# PowerPoint temporary
 ~$*.ppt*
-
-# Visio autosave temporary files
+~$*.xls*
 *.~vsd*
 
+# MicrosoftOffice Backup File
+*.doc*
+*.xlk
