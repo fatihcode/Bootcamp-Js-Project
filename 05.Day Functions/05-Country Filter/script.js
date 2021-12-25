@@ -1,10 +1,11 @@
+
 const countries = ['Albania', 'bolivia', 'Canada', 'Bali', 'denmark', 'czech republic', 'ethiopia', 'Finland', 'Germany', 'hungary', 'Ireland', 'Japan', 'Kenya', 'United States']
 
 console.log(countries)
 
 
 
-console.warn("//step-1----------------------------------------------")
+console.warn("//step-1--------------------------------------")
 
 
 
@@ -27,27 +28,33 @@ console.log(countryFind1(countries))
 
 
 
-console.warn("//step-2----------------------------------------------")
+console.warn("//step-2--------------------------------------")
 
 
 
 // step-2
 function longestCountry(arr) {
 
-  for (let i = 0; i < arr.length; i++) {
+  let lgth = 0;
+  let longest;
 
-    if (arr[i].length > 13) {
-      step2 = arr[i]
+  for (var i = 0; i < arr.length; i++) {
+
+    if (arr[i].length > lgth) {
+
+      lgth = arr[i].length;
+      longest = arr[i];
+
     }
   }
-  return step2
+  return longest;
 }
 
 console.log(longestCountry(countries))
 
 
 
-console.warn("//step-3----------------------------------------------")
+console.warn("//step-3--------------------------------------")
 
 
 
@@ -55,22 +62,17 @@ console.warn("//step-3----------------------------------------------")
 
 function countrySort(arr) {
 
+  step3 = arr.slice()
 
+  return step3.sort((a, b) => a.length - b.length);
 
-
-
-  // step3 = arr
-
-  // return step3.sort((a, b) => a.length - b.length);
-
-   
 }
 
-// console.log(countrySort(countries))
+console.log(countrySort(countries))
 
 
 
-console.warn("//step-4----------------------------------------------")
+console.warn("//step-4--------------------------------------")
 
 
 
@@ -91,7 +93,7 @@ console.log(countryFind4(countries))
 
 
 
-console.warn("//step-5----------------------------------------------")
+console.warn("//step-5--------------------------------------")
 
 
 
@@ -115,7 +117,7 @@ console.log(countryFind5(countries))
 
 
 
-console.warn("//step-6----------------------------------------------")
+console.warn("//step-6--------------------------------------")
 
 
 
@@ -123,19 +125,22 @@ console.warn("//step-6----------------------------------------------")
 
 function countryFind6(arr) {
 
-  let step6 = []
+  let newArr = []
   for (let i = 0; i < arr.length; i++) {
 
-    step6.push(arr[i].toUpperCase())
+    newArr.push(arr[i].toUpperCase())
   }
-  return step6.reverse()
+
+  let step6 = newArr.slice().reverse()
+
+  return step6
 }
 
 console.log(countryFind6(countries))
 
 
 
-console.warn("//step-7----------------------------------------------")
+console.warn("//step-7--------------------------------------")
 
 
 

@@ -1,16 +1,21 @@
-let student=["Ben", "Jenny", "Michael", "Chloe", "Timmy"]
-
-student.push("Max")
+let student = ["Ben", "Jenny", "Michael", "Chloe", "Timmy"]
 
 function whoIsWashing(arr) {
-    
-    let wash = arr[Math.floor(Math.random()*arr.length)]    
 
-    return console.log(`${wash} yıkayacak`)
+    let wash = arr[Math.floor(Math.random() * arr.length)]
+
+    return console.log(`"${wash}" is going to wash dishes today!`)
 }
+
 
 whoIsWashing(student)
 
-let komsu=["Patrick", "AnnMarie", "Alisol" , "Walton"]
 
-whoIsWashing(komsu)
+student.push("Max")
+
+whoIsWashing(student)
+
+
+let neighbours = ["Patrick", "AnnMarie", "Alisol", "Walton"]
+
+whoIsWashing(neighbours)
