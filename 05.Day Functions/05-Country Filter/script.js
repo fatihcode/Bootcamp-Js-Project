@@ -1,4 +1,3 @@
-
 const countries = ['Albania', 'bolivia', 'Canada', 'Bali', 'denmark', 'czech republic', 'ethiopia', 'Finland', 'Germany', 'hungary', 'Ireland', 'Japan', 'Kenya', 'United States']
 
 console.log(countries)
@@ -6,22 +5,14 @@ console.log(countries)
 
 
 console.warn("//step-1--------------------------------------")
-
+// 1. Extract all the countries contain the word 'land' from the countries array and print it as array
+// 1. Ülkeler dizisinden 'land' kelimesini içeren tüm ülkeleri ayıklayın ve dizi olarak yazdırın*******
 
 
 // step-1
 function countryFind1(arr) {
 
-  let landCountry = []
-
-  for (let i = 0; i < arr.length; i++) {
-
-    if (arr[i].includes("land")) {
-
-      landCountry.push(arr[i])
-    }
-  }
-  return landCountry;
+  return arr.filter(arr => arr.includes("land"));
 }
 
 console.log(countryFind1(countries))
@@ -29,25 +20,14 @@ console.log(countryFind1(countries))
 
 
 console.warn("//step-2--------------------------------------")
-
+// 2. Find the country containing the hightest number of characters in the countries array
+// 2. Ülkeler dizisindeki en yüksek sayıda karakteri içeren ülkeyi bulun
 
 
 // step-2
 function longestCountry(arr) {
 
-  let lgth = 0;
-  let longest;
-
-  for (var i = 0; i < arr.length; i++) {
-
-    if (arr[i].length > lgth) {
-
-      lgth = arr[i].length;
-      longest = arr[i];
-
-    }
-  }
-  return longest;
+  return arr.filter(arr => arr.length > 6)
 }
 
 console.log(longestCountry(countries))
@@ -55,7 +35,8 @@ console.log(longestCountry(countries))
 
 
 console.warn("//step-3--------------------------------------")
-
+// 3. Sort the countries by length of characters in the countries array
+// 3. Ülkeler dizisindeki karakterlerin uzunluğuna göre ülkeleri sıralayın
 
 
 // step-3
@@ -73,20 +54,15 @@ console.log(countrySort(countries))
 
 
 console.warn("//step-4--------------------------------------")
-
+// 4. Extract all the countries containing only four characters from the countries array and print it as array
+// 4. Ülkeler dizisinden sadece dört karakter içeren tüm ülkeleri çıkartın ve dizi olarak yazdırın*****
 
 
 // step-4
 
 function countryFind4(arr) {
 
-  for (let i = 0; i < arr.length; i++) {
-
-    if (arr[i].length <= 4) {
-      step4 = arr[i]
-    }
-  }
-  return step4;
+  return arr.filter(arr => arr.length === 4)
 }
 
 console.log(countryFind4(countries))
@@ -94,23 +70,15 @@ console.log(countryFind4(countries))
 
 
 console.warn("//step-5--------------------------------------")
-
+// 5. Extract all the countries containing two or more words from the countries array and print it as array
+// 5. Ülkeler dizisinden iki veya daha fazla kelime içeren tüm ülkeleri çıkartın ve dizi olarak yazdırın*********
 
 
 // step-5
 
 function countryFind5(arr) {
 
-  let step5 = []
-
-  for (let i = 0; i < arr.length; i++) {
-
-    if (arr[i].includes(" ")) {
-
-      step5.push(arr[i])
-    }
-  }
-  return step5;
+  return arr.filter(arr => arr.includes(" "))
 }
 
 console.log(countryFind5(countries))
@@ -118,22 +86,15 @@ console.log(countryFind5(countries))
 
 
 console.warn("//step-6--------------------------------------")
-
+// 6. Reverse the countries array and capitalize each country and stored it as an array.
+// 6. Ülkeler dizisini ters çevirin ve her ülkeyi büyük harf yapın ve bir dizi olarak saklayın.*********
 
 
 //step-6
 
 function countryFind6(arr) {
 
-  let newArr = []
-  for (let i = 0; i < arr.length; i++) {
-
-    newArr.push(arr[i].toUpperCase())
-  }
-
-  let step6 = newArr.slice().reverse()
-
-  return step6
+  return arr.map(arr => arr.toUpperCase()).reverse()
 }
 
 console.log(countryFind6(countries))
@@ -141,24 +102,16 @@ console.log(countryFind6(countries))
 
 
 console.warn("//step-7--------------------------------------")
-
+// 7. Extract all the countries don’t contain the word 'land' from the countries array, add “land” at the end of the country and print it as array.
+// 7. Ülkeler dizisinden 'land' kelimesini içermeyen tüm ülkeleri çıkartın, ülkenin sonuna “land” ekleyin ve dizi olarak yazdırın.*******
 
 
 // step-7
 
 function countryFind7(arr) {
 
-  let step7 = []
+  return arr.filter(arr => !arr.includes("land")).map(arr => arr + "land")
 
-  for (let i = 0; i < arr.length; i++) {
-
-    if (!arr[i].includes("land")) {
-
-      let str = arr[i] + "land"
-      step7.push(str)
-    }
-  }
-  return step7;
 }
 
 console.log(countryFind7(countries))
