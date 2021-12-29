@@ -1,4 +1,4 @@
-## Yarış Günü
+# Yarış Günü
 
 *Koşucuları yarışa kaydedecek ve yarış gününde onlara talimatlar verecek bir program yazmak için işe alındınız.*
 
@@ -23,7 +23,7 @@
 
 * [ ] Yarış numaraları rastgele atanır.
 
-**İpucu**
+### İpucu;
 
 > Math.random(), 0 (dahil) ile 1 (hariç) arasında bir değer döndürür.
 > Bu sayı kümesini 0 (dahil) ile 1000 (hariç) arasında bir aralık yapmak için döndürülen değeri 1000 ile çarpabiliriz. Son olarak, yalnızca 0'dan 999'a kadar tam sayılara sahip olduğumuzdan emin olmak için Math.floor()'u kullanarak aşağı yuvarlayabiliriz.
@@ -33,21 +33,21 @@
 * [ ] Bir koşucunun erken kayıt olup olmadığını gösteren bir değişken oluşturun.
 * [ ] Bir Boolean değerine eşit olarak ayarlayın. Bunu daha sonra farklı koşucu koşullarını test ederken değiştireceksiniz.
 
-**İpucu**
+### İpucu;
 
 > `const registeredEarly = false;`
 
 * [ ] Koşucunun yaşı için bir değişken oluşturun ve bunu bir sayıya eşitleyin.
 * [ ] Bunu daha sonra farklı koşucu koşullarını test ederken değiştireceksiniz.
 
-**İpucu**
+### İpucu;
 
 > `const age = 19;`
 
 * [ ] Koşucunun yetişkin olup olmadığını ve erken kayıt olup olmadığını kontrol eden bir kontrol akışı ifadesi oluşturun.
 * [ ] Bu doğruysa, raceNumber'larına 1000 ekleyin.
 
-**İpucu**
+### İpucu;
 
 > Bir koşucu, yaşı 18'in üzerindeyse yetişkindir.
 > Bir if ifadesi, && mantıksal operatörü ve matematiksel atama operatörü += kullanmanız gerekir.
@@ -55,45 +55,52 @@
 * [ ] İlkinin altında ayrı bir kontrol akışı ifadesi oluşturun (tekrar if ile başlayarak). Bu beyan, yarış zamanını belirlemek için yaşı ve kayıt zamanını kontrol edecektir.
 * [ ] Erken kayıt yaptıran 18 yaşından büyük koşucular için, konsola saat 9:30'da yarışacaklarını bildiren bir açıklama yazın. RaceNumber'larını ekleyin.
 
-**İpucu**
+### İpucu;
 
 > Bu adım bir if ifadesi, && mantıksal işleci, console.log ve dize enterpolasyonu gerektirir.
 >
-> `if (koşul && koşul) {`
-> ` console.log('ifade');`
-> ` }`
+> ```
+> if (koşul && koşul) {
+>  console.log('ifade');
+>  }
+> ```
 
 * [ ] “Geç yetişkinler saat 11: 00'de koşar”
 * [ ] Erken yetişkinleri zaten kontrol ettiğimiz için şöyle bir ifade yazabiliriz: Aksi takdirde koşucu 18 yaşından büyükse ve erken kayıt yaptırmadıysa saat 11:00'de yarışacaktır.
 * [ ] Karşılık gelen else if ifadesini yazın.
 * [ ] Bunun içinde, konsola saat 11: 00'de yarışacaklarını söyleyen bir dize kaydedin. RaceNumber'larını ekleyin.
 
-**İpucu**
+### İpucu;
 
 > Bu adım, && ve ! mantıksal işleçler, console.log ve dize enterpolasyonu.
-> `if (koşul && koşul) {`
-> `konsol.log('ifade');`
-> `} else if (koşul && !şart) {`
-> `konsol.log('diğer ifade');`
-> `}`
+>
+> ```
+> if (koşul && koşul) {
+> konsol.log('ifade');
+> } else if (koşul && !şart) {
+> konsol.log('diğer ifade');
+> }
+> ```
 
 * [ ] “Genç kayıt yaptıranlar öğlen 12:30'da koşar (kayıttan bağımsız olarak)”
 * [ ] 18 yaşından küçükler için, konsola 12:30'da yarışacaklarını bildiren bir açıklama yazın. RaceNumber'larını ekleyin.
 
-**İpucu**
+### İpucu;
 
-> `if (koşul && koşul) { `
-> `konsol.log('ifade'); `
-> `} else if (koşul && !şart) { `
-> `konsol.log('diğer ifade'); `
-> `} else if (koşul) { `
-> `konsol.log('başka bir ifade'); `
-> `}`
+> ```
+> if (koşul && koşul) { 
+> konsol.log('ifade'); 
+> } else if (koşul && !şart) { 
+> konsol.log('diğer ifade'); 
+> } else if (koşul) { 
+> konsol.log('başka bir ifade'); 
+> }
+> ```
 
 * [ ] Oluşturduğunuz iki değişken için farklı değer kombinasyonları girin ve kodunuzu birkaç kez çalıştırın. Doğru ifadelerin konsola yazdırıldığını doğrulayın!
 * [ ] İpucunda verilen örnekleri kullanarak çalışmanızı kontrol edebilirsiniz.
 
-**İpucu**
+### İpucu;
 
 > Kodunuz doğru çalışıyorsa, bunların tümü doğru olmalıdır:
 > 25 yaşını doldurmuş ve erken kayıt yaptıran koşucular saat 09:30'da koşacaktır.
@@ -104,7 +111,7 @@
 * [ ] Tam 18 yaşında olan koşucuları unutmayın!
 * [ ] Koşucuya kayıt masasını görmesini söyleyen bir ifadeyi konsola kaydeden başka bir ifade ekleyin.
 
-**İpucu**
+### İpucu;
 
 > Kodunuz doğru çalışıyorsa, bu doğru olmalıdır:
 > 18 yaşını doldurmuş ve erken kayıt yaptıran koşucuların kayıt masasını görmeleri gerekmektedir.
@@ -112,7 +119,7 @@
 
 ---
 
-## Race Day
+# Race Day
 
 *You have been hired to write a program that will register runners for the race and give them instructions on race day.*
 
@@ -136,7 +143,7 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 
 * [ ] Race numbers are assigned randomly.
 
-**Hint**
+### Hint;
 
 > Math.random() returns a value between 0 (inclusive) and 1 (exclusive).
 > In order to make this set of numbers range from 0 (inclusive) to 1000 (exclusive) we can multiply the returned value by 1000.
@@ -147,21 +154,21 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 * [ ] Create a variable that indicates whether a runner registered early or not.
 * [ ] Set it equal to a Boolean value. You’ll change this later as you test different runner conditions.
 
-**Hint**
+### Hint;
 
 > `const registeredEarly = false;`
 
 * [ ] Create a variable for the runner’s age and set it equal to a number.
 * [ ] You’ll change this later as you test different runner conditions.
 
-**Hint**
+### Hint;
 
 > `const age = 19;`
 
 * [ ] Create a control flow statement that checks whether the runner is an adult AND registered early.
 * [ ] Add 1000 to their raceNumber if this is true.
 
-**Hint**
+### Hint;
 
 > A runner is an adult if their age is over 18.
 > You’ll need to use an if statement, the && logical operator, and the mathematical assignment operator +=.
@@ -169,46 +176,52 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 * [ ] Create a separate control flow statement below the first (starting with if again). This statement will check age and registration time to determine race time.
 * [ ] For runners over 18 who registered early, log a statement to the console telling them that they will race at 9:30 am. Include their raceNumber.
 
-**Hint**
+### Hint;
 
 > This step requires an if statement, the && logical operator, console.log, and string interpolation.
 >
-> `if (condition && condition) { `
-> `console.log('statement'); `
-> `}`
+> ```
+> if (condition && condition) { 
+> console.log('statement'); 
+> }
+> ```
 
 * [ ] “Late adults run at 11:00 am”
 * [ ] Since we already checked for early adults we can write a statement like this: else if runner is over 18 AND did not register early they will race at 11:00am
 * [ ] Write the corresponding else if statement.
 * [ ] Within that, log a string to the console telling them that they will race at 11:00 am. Include their raceNumber.
 
-**Hint**
+### Hint;
 
 > This step requires an else if statement, the && and ! logical operators, console.log, and string interpolation.
 >
-> `if (condition && condition) {`
-> `console.log('statement');`
-> `} else if (condition && !condition) {`
-> `console.log('other statement');`
-> `}`
+> ```
+> if (condition && condition) {
+> console.log('statement');
+> } else if (condition && !condition) {
+> console.log('other statement');
+> }
+> ```
 
 * [ ] “Youth registrants run at 12:30 pm (regardless of registration)”
 * [ ] For people who are under 18, log a statement to the console telling them that they will race at 12:30 pm. Include their raceNumber.
 
-**Hint**
+### Hint;
 
-> `if (condition && condition) {`
-> `console.log('statement');`
-> `} else if (condition && !condition) {`
-> `console.log('other statement');`
-> `} else if (condition) {`
-> `console.log('another statement');`
-> `}`
+> ```
+> if (condition && condition) {
+> console.log('statement');
+> } else if (condition && !condition) {
+> console.log('other statement');
+> } else if (condition) {
+> console.log('another statement');
+> }
+> ```
 
 * [ ] Enter different combinations of values for the two variables you created and run your code several times. Verify that the correct statements are printing to the console!
 * [ ] You can check your work using the examples provided in the hint.
 
-**Hint**
+### Hint;
 
 > If your code is working correctly, all of these should be true:
 > Runners who are 25 years old and registered early will run at 9:30 am.
@@ -219,7 +232,7 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 * [ ] Don’t forget about runners exactly 18 years old!
 * [ ] Add an else statement that logs a statement to the console telling the runner to see the registration desk.
 
-**Hint**
+### Hint;
 
 > If your code is working correctly, this should be true:
 > Runners who are 18 years old and registered early should see the registration desk.

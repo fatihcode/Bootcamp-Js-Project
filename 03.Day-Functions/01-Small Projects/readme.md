@@ -1,4 +1,4 @@
-## Toplu Karşılaştırma Projesi
+# Toplu Karşılaştırma Projesi
 
 * Javascript bilgimizle Mark's ve John's BMI (Vücut Kitle İndeksi)'ni fonksiyonlarla hesaplayıp karşılaştıralım. Geçen hafta yaptığın gibi.
 
@@ -17,17 +17,17 @@
 > • Fazla kilolu: BMI 25 ila 29,9
 > • Obez: BMI 30 veya daha fazla
 
-## Yarış Günü
+# Yarış Günü
 
 Koşucuları yarışa kaydedecek ve yarış günü onlara talimat verecek bir program yazdınız. Lütfen bu Projeyi iki argüman alan bir fonksiyon ile kaplayın; erkenKayıtlı ve yetişkin veya boolean değil.
 
-## Sınıf Öğrencileri
+# Sınıf Öğrencileri
 
 Geçen hafta yaptığımız puanlara göre öğrencilere not veren bir kod yazın. Lütfen bu Projeyi iki argüman alan bir fonksiyon ile kaplayın; öğrencilerin adı ve notu.
 
 ---
 
-## Mass Compare Project
+# Mass Compare Project
 
 With our knowledge of Javascript, let’s calculate and compare of the Mark’s and John’s BMI (Body Mass Index) with functions. As you did last week.
 
@@ -46,10 +46,10 @@ With our knowledge of Javascript, let’s calculate and compare of the Mark’s 
 > •	Overweight: BMI is 25 to 29.9
 > •	Obese: BMI is 30 or more
 
-## Race Day
+# Race Day
 
 You have been write a program that will register runners for the race and give them instructions on race day. Please cover this Project with one function that takes two arguments; earlyRegistered and adult or not booleans.
 
-## Grade Students
+# Grade Students
 
 Write a code which give grade students according to theirs scores that we did last week. Please cover this Project with one function that takes two arguments; students name and note.

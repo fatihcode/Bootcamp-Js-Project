@@ -1,4 +1,4 @@
-## Alıntı Düzeltici
+# Alıntı Düzeltici
 
 *Dizi yöntemlerini kullanarak bir diziyi diziye dönüştüreceksiniz!
 Aşina olmadığınız herhangi bir yöntem hakkında referans için Mozilla Developer Network'e (MDN) danışmalısınız.*
@@ -9,27 +9,27 @@ Aşina olmadığınız herhangi bir yöntem hakkında referans için Mozilla Dev
 
 **ÖNEMLİ NOT:** Her dizi yöntemini bir kez kullanın.
 
-* [X] Önce bir değişken oluşturun ve bu Martin Fowler'ın Alıntısını bir dize olarak koyun.
-* [X] Bir dizi oluşturmak ve bir favori Alıntı değişkeni ayarlamak için bir dize yöntemi kullanın.
+* [  ] Önce bir değişken oluşturun ve bu Martin Fowler'ın Alıntısını bir dize olarak koyun.
+* [  ] Bir dizi oluşturmak ve bir favori Alıntı değişkeni ayarlamak için bir dize yöntemi kullanın.
 
 **Ama bu alıntıda bazı hatalar var. Düzelteceğiz.**
 
-* [X] Öncelikle! Dizinin `.length` değerini kontrol edin.
-* [X] Ardından, favori Alıntı dizisinin son dizesini kaldırmak için bir dizi yöntemi kullanın.
-* [X] Harika! Dizinin `.length` değerini günlüğe kaydederek çalışmanızı kontrol edebilirsiniz.
-* [X] Bu noktada uzunluk orijinal uzunluktan 1 eksik olmalıdır.
-* [X] **Development, ThoughtWorks ve Inc.** sözcüklerini `favoriQuote` dizisinin sonuna ayrı dizeler olarak eklemek için bir dizi yöntemi kullanın.
-* [X] Dizine erişip **vücutlar** kelimesini **aptal** kelimesiyle değiştirin.
-* [X] Dizinin ilk dizesini kaldırmak için bir dizi yöntemi kullanın.
-* [X] **Any** dizesini dizinin başına eklemek için bir dizi yöntemi kullanın.
-* [X] **çok iyi tasarlanmış bir kod makinesinin** dizilerini kaldırmak ve bunları tek dizili **bilgisayarın** yazısı ile değiştirmek için bir dizi yöntemi kullanın.
-* [X] Bir satırda `console.log()` öğesini kullanın ve alıntıyı bir dize cümlesi olarak yazdırın.
+* [  ] Öncelikle! Dizinin `.length` değerini kontrol edin.
+* [  ] Ardından, favori Alıntı dizisinin son dizesini kaldırmak için bir dizi yöntemi kullanın.
+* [  ] Harika! Dizinin `.length` değerini günlüğe kaydederek çalışmanızı kontrol edebilirsiniz.
+* [  ] Bu noktada uzunluk orijinal uzunluktan 1 eksik olmalıdır.
+* [  ] **Development, ThoughtWorks ve Inc.** sözcüklerini `favoriQuote` dizisinin sonuna ayrı dizeler olarak eklemek için bir dizi yöntemi kullanın.
+* [  ] Dizine erişip **vücutlar** kelimesini **aptal** kelimesiyle değiştirin.
+* [  ] Dizinin ilk dizesini kaldırmak için bir dizi yöntemi kullanın.
+* [  ] **Any** dizesini dizinin başına eklemek için bir dizi yöntemi kullanın.
+* [  ] **çok iyi tasarlanmış bir kod makinesinin** dizilerini kaldırmak ve bunları tek dizili **bilgisayarın** yazısı ile değiştirmek için bir dizi yöntemi kullanın.
+* [  ] Bir satırda `console.log()` öğesini kullanın ve alıntıyı bir dize cümlesi olarak yazdırın.
 
 > "Her aptal, bilgisayarın anlayabileceği bir kod yazabilir. İyi programcılar, insanların anlayabileceği kodlar yazar.” -Martin Fowler. Yazılım Geliştirme, ThoughtWorks Inc.
 
 ---
 
-## Quote Fixer
+# Quote Fixer
 
 *Using array methods, you will transform a string into an array!
 You should consult the Mozilla Developer Network (MDN) for reference on any method with which you are not familiar.*

@@ -1,4 +1,4 @@
-## FİBONACCİ ÜRETİCİSİ
+# FİBONACCİ ÜRETİCİSİ
 
 Fibonacci Dizisi, sayı dizisidir:
 
@@ -37,36 +37,28 @@ Bu kadar basit!
 
 5. [ ] Diğer daha büyük argümanlar için (50 veya 100 olabilir); kodunuzu tekrarlayamazsınız, verilen argümana göre dizi oluşturmak için bir “for döngüsü” kullanmanız gerekir.
 
-**İPUCU:**
+### İpucu;
 
-```
-// Döngü yapısı için
-
-for(başlatma, koşul, artırma/azaltma){
-// kod buraya gelir
-}
-```
-
-```
-//örnek
-
-dizi = [45, 55, 65, 78, 83, 99]
-for(let i = 0; i <= 5; i++){ // kodu döngü içinde 6 kez tekrarlamak anlamına gelir
-konsol.log(arr[i]) // her “i” döngüsü +1 alır ve 5'e ulaştığında; döngü durur.
-}
-
-//konsol şöyle olur: // 45 55 65 78 83 99
-```
-
-```
-// bununla aynı koddu;
-konsol.log(dizi[0])
-konsol.log(dizi[1])
-konsol.log(dizi[2])
-konsol.log(dizi[3])
-konsol.log(dizi[4])
-konsol.log(dizi[5])
-```
+> ```
+> // Döngü yapısı için
+> for(başlatma, koşul, artırma/azaltma){
+> // kod buraya gelir
+> }
+>
+> //örnekdizi = [45, 55, 65, 78, 83, 99]
+> for(let i = 0; i <= 5; i++){ // kodu döngü içinde 6 kez tekrarlamak anlamına gelir
+> konsol.log(arr[i]) // her “i” döngüsü +1 alır ve 5'e ulaştığında; döngü durur.
+> }
+> //konsol şöyle olur: // 45 55 65 78 83 99
+>
+> // bununla aynı koddu;
+> konsol.log(dizi[0])
+> konsol.log(dizi[1])
+> konsol.log(dizi[2])
+> konsol.log(dizi[3])
+> konsol.log(dizi[4])
+> konsol.log(dizi[5])
+> ```
 
 ***Tebrikler!***
 
@@ -88,7 +80,7 @@ O halde, istediğiniz Fibonacci Sayısını veren bir fonksiyon oluşturun. Örn
 
 ---
 
-## FIBONACCI GENERATOR
+# FIBONACCI GENERATOR
 
 The Fibonacci Sequence is the series of numbers:
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
@@ -118,33 +110,29 @@ Create an if statement for this situtation and give output manually.
 
 5. For other bigger arguments (may be 50 or 100); you can not repeat your code, you need to use a “for loop” to create array according to the given argument.
 
-**HINT:**
+### Hint;
 
-```
-// For loop structure
-for(initialization, condition, increment/decrement){
-// code goes here
-}
-```
-
-```
-//example
-arr = [45, 55, 65, 78, 83, 99]
-for(let i = 0; i <= 5; i++){    // it means repeat the code 6 times inside loop
-console.log(arr[i])      // every loop “i” takes +1 and when reaches 5; loop stops.
-}
-//console would be : // 45 55 65 78 83 99
-```
-
-```
-//it was the same code with this;
-console.log(arr[0])
-console.log(arr[1])
-console.log(arr[2])
-console.log(arr[3])
-console.log(arr[4])
-console.log(arr[5])
-```
+> ```
+> // For loop structure
+> for(initialization, condition, increment/decrement){
+> // code goes here
+> }
+>
+> //example
+> arr = [45, 55, 65, 78, 83, 99]
+> for(let i = 0; i <= 5; i++){    // it means repeat the code 6 times inside loop
+> console.log(arr[i])      // every loop “i” takes +1 and when reaches 5; loop stops.
+> }
+> //console would be : // 45 55 65 78 83 99
+>
+> //it was the same code with this;
+> console.log(arr[0])
+> console.log(arr[1])
+> console.log(arr[2])
+> console.log(arr[3])
+> console.log(arr[4])
+> console.log(arr[5])
+> ```
 
 ***Congratulations!***
 
@@ -156,7 +144,7 @@ And here is a surprise. When we take any two successive (one after the other) Fi
 "φ" = fibonacciArray[num] / fibonacciArray[num-1]
 By using "φ" we can find exact fibonacci number. The formula gives correct result after 6th number.
 
-> Example output:    X7 = ((1,618034...)(7-1) − (1−1,618034...)(7-1) )/√5
+`Example output:    X7 = ((1,618034...)(7-1) − (1−1,618034...)(7-1) )/√5`
 
 •	So, create a function that gives the Fibonacci Number you want. Example output fibonacciFinder(7) = 8
 

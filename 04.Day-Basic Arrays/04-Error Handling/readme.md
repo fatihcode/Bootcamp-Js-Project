@@ -1,13 +1,13 @@
-## HATA İŞLEYİCİ:
+# HATA İŞLEYİCİ:
 
-* script.js dosyanızdaki hataları düzeltin.
+* [ ] script.js dosyanızdaki hataları düzeltin.
 
 ***İyi şanslar!***
 
 ---
 
-## ERROR HANDLER:
+# ERROR HANDLER:
 
-* Fix errors in your script.js file.
+* [ ] Fix errors in your script.js file.
 
 ***Good luck!***
