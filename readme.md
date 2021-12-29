@@ -1,4 +1,4 @@
-# 30.DAYS JAVASCRIPT PROJECT
+# 30 Day Javascript Project
 
 ## 01.Day [Variables]
 
