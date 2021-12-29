@@ -1,4 +1,4 @@
-## Köpek Yaşı Hesaplama
+## Köpek Yılları
 
 *Köpekler insanlardan daha hızlı olgunlaşır. Bir köpeğin yaşının, aynı yaştaki bir insanla karşılaştırıldığında büyümesini hesaba katmak için "köpek yılları" olarak hesaplanabileceğini sık sık söyleriz. Bazı yönlerden, köpekler için zaman hızlı hareket eder - bir insanın hayatındaki 8 yıl, bir köpeğin hayatındaki 45 yıla eşittir. Bir köpek olsaydın kaç yaşında olurdun?*
 
@@ -37,7 +37,7 @@
 - Sonraki her yıl 10 insan yılına eşittir.
 - Bunun gibi uyarmak için bir çözüm yapın: 20 yaşındaki kaplumbağanız insan olsaydı 202 yaşında olurdu.
 
-*Not: Bu sayfayı inceleyebilirsiniz:*
+*Not: Daha fazla bilgi için bu sayfayı inceleyebilirsiniz:*
 
 [http://www.age-converter.com/reptiles-age-calculator.html](http://www.age-converter.com/reptiles-age-calculator.html/)
 

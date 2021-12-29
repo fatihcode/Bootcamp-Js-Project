@@ -1,14 +1,14 @@
-## ÇİÇEK MEYVELERİ:
+## ÇİÇEK MEYVELERİ
 
-Uzay yolcuları güvenli bir şekilde indi ve doğal vahşi yaşamda yiyecek arıyorlar.
+*Uzay yolcuları güvenli bir şekilde indi ve doğal vahşi yaşamda yiyecek arıyorlar.*
 
-Birçok farklı renkte meyveleri olan çalılar var. 
+*Birçok farklı renkte meyveleri olan çalılar var.*
 
-Pembe meyveler, yemek için SADECE güvenli olanlardır. 
+*Pembe meyveler, yemek için SADECE güvenli olanlardır.*
 
-Başka meyveler varsa, çalıdan hiç yememek en iyisidir!
+*Başka meyveler varsa, çalıdan hiç yememek en iyisidir!*
 
-* Çalıda TÜM PEMBE meyveleri olup olmadığını ve astronotların çalıdan yemesinin güvenli olup olmadığını kontrol eden bir işlev oluşturun.
+* [X] Çalıda TÜM PEMBE meyveleri olup olmadığını ve astronotların çalıdan yemesinin güvenli olup olmadığını kontrol eden bir işlev oluşturun.
 
 *Not: Çözüm için bir veya daha fazla fonksiyon kullanabilirsiniz.*
 
@@ -16,19 +16,17 @@ Başka meyveler varsa, çalıdan hiç yememek en iyisidir!
 
 ---
 
+## BUSH BERRIES
 
+*The space travellers have safely landed and are foraging for food in the natural wildlife.*
 
-## BUSH BERRIES:
+*There are bushes with many different colour berries.*
 
-The space travellers have safely landed and are foraging for food in the natural wildlife.
+*The pink berries are the ONLY safe ones to eat.*
 
-There are bushes with many different colour berries.
+*If any other berries are present, it's best not to eat from the bush at all!*
 
-The pink berries are the ONLY safe ones to eat.
-
-If any other berries are present, it's best not to eat from the bush at all!
-
-* Create a function which checks if the bush has ALL PINK berries and is safe for the astronauts to eat from the bush.
+* [X] Create a function which checks if the bush has ALL PINK berries and is safe for the astronauts to eat from the bush.
 
 *Note: You can use one or more function for solution.*
 

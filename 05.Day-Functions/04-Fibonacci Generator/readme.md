@@ -1,4 +1,4 @@
-## Fibonacci Üreticisi
+## FİBONACCİ ÜRETİCİSİ
 
 Fibonacci Dizisi, sayı dizisidir:
 
@@ -23,19 +23,21 @@ Bu kadar basit!
 
 **Adımlara bakmadan tamamlamayı deneyin.**
 
-1. İlk olarak, bir parametre kabul eden bir fonksiyon oluşturun; her seferinde kaç tane Fibonacci sayısı oluşturacağınız için.
-2. İşlevin içinde, bir dizi oluşturma koşulu, başlangıç koşulu için iki öğeye sahiptir.
-3. Verilen argümana göre fonksiyon, Fibonacci sayı dizisini hesaplamalı ve döndürmelidir. Her sayı kendisinden önceki iki sayı toplanarak bulunur.
+1. [ ] İlk olarak, bir parametre kabul eden bir fonksiyon oluşturun;
+2. [ ] Her seferinde bir tane Fibonacci sayısı oluşturacağınız için.
+3. [ ] İşlevin içinde, bir dizi oluşturma koşulu, başlangıç koşulu için iki öğeye sahiptir.
+4. [ ] Verilen argümana göre fonksiyon, Fibonacci sayı dizisini hesaplamalı ve döndürmelidir.
+5. [ ] Her sayı kendisinden önceki iki sayı toplanarak bulunur.
 
-Dizinin doğru uzunluğuna ulaşmadıkça bu itibarı yapın.
+* [ ] Dizinin doğru uzunluğuna ulaşmadıkça bu itibarı yapın.
 
-4. Ama ya kullanıcı argüman için “1” verirse.
+4. [ ] Ama ya kullanıcı argüman için “1” verirse.
 
-Bu durum için bir if ifadesi oluşturun ve manuel olarak çıktı verin.
+* [ ] Bu durum için bir if ifadesi oluşturun ve manuel olarak çıktı verin.
 
-5. Diğer daha büyük argümanlar için (50 veya 100 olabilir); kodunuzu tekrarlayamazsınız, verilen argümana göre dizi oluşturmak için bir “for döngüsü” kullanmanız gerekir.
+5. [ ] Diğer daha büyük argümanlar için (50 veya 100 olabilir); kodunuzu tekrarlayamazsınız, verilen argümana göre dizi oluşturmak için bir “for döngüsü” kullanmanız gerekir.
 
-#### İPUCU:
+**İPUCU:**
 
 ```
 // Döngü yapısı için
@@ -74,7 +76,7 @@ Altın Oran "φ" (sembol, solda gösterilen Yunanca "phi" harfidir) yaklaşık o
 
 Ve işte bir sürpriz. Ardışık (birbiri ardına) herhangi iki Fibonacci Sayısını aldığımızda, oranları Altın Oran'a çok yakındır.
 
-"φ" = fibonacciArray[sayı] / fibonacciArray[sayı-1] "φ" kullanarak tam fibonacci sayısını bulabiliriz. 
+"φ" = fibonacciArray[sayı] / fibonacciArray[sayı-1] "φ" kullanarak tam fibonacci sayısını bulabiliriz.
 
 Formül 6. sayıdan sonra doğru sonucu verir.
 
@@ -86,7 +88,7 @@ O halde, istediğiniz Fibonacci Sayısını veren bir fonksiyon oluşturun. Örn
 
 ---
 
-## Fibonacci Generator
+## FIBONACCI GENERATOR
 
 The Fibonacci Sequence is the series of numbers:
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
@@ -116,7 +118,7 @@ Create an if statement for this situtation and give output manually.
 
 5. For other bigger arguments (may be 50 or 100); you can not repeat your code, you need to use a “for loop” to create array according to the given argument.
 
-#### HINT:
+**HINT:**
 
 ```
 // For loop structure
