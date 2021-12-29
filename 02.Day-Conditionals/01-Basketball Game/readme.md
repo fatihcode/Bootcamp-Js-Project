@@ -8,7 +8,7 @@
 * [ ] Ardından farklı kazananları göstermek için puanları değiştirin. Beraberlik olabileceğini hesaba katmayı unutmayın (aynı ortalama puan).
 * [ ] Bu kod satırını açıklayan bir yorum yazın.
 
-### Ekstra:
+### Ekstra;
 
 * [ ] Mary ayrıca basketbol oynuyor ve takımı 97, 134 ve 105 sayı attı. Daha önce olduğu gibi, ortalama kazananı konsola kaydedin.
 

@@ -11,7 +11,7 @@
 
 ***Aferin!***
 
-## MÜCADELE – EVDE ÇALIŞMA
+## Meydan Okuma! – Evde Çalışma
 
 * [ ] İlk bağımsız değişken olarak `sortAges` işlevini ve ikinci bağımsız değişken olarak beklenen bir diziyi alan bir test işlevi oluşturun. (karşılaştırma için manuel olarak beklenen dizi olarak bir çözüm dizisi oluşturun)
 * [ ] Karşılaştırma yapın ve **“geçti”** veya **“başarısız”** sonucunu verin.
@@ -36,7 +36,7 @@ Bu algoritmanın hızlı çalışmasını sağlamak için endişelenmenize gerek
 
 ***Well done!***
 
-## CHALLENGE – HOME STUDY
+## Challenge – Home Study
 
 * [ ] Create a test function that takes sortAges  function as an first argument and takes an expected array as an second argument. (create a solution array as expected array manually, for comparing)
 * [ ] Make comparison and give result “passed” or “failed”.

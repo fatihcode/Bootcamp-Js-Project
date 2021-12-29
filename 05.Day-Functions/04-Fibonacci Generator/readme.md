@@ -62,7 +62,7 @@ Bu kadar basit!
 
 ***Tebrikler!***
 
-## Ek Adım:
+## Ek Adım;
 
 Altın Oran "φ" (sembol, solda gösterilen Yunanca "phi" harfidir) yaklaşık olarak 1,618'e eşit özel bir sayıdır.
 

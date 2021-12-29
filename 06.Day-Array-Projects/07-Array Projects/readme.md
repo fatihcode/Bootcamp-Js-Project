@@ -2,7 +2,7 @@
 
 `const countries = [ 'Albania', 'Bolivia', 'Canada', 'Denmark', 'Ethiopia', 'Finland', 'Germany', Hungary', 'Ireland', 'Japan', 'Kenya' ]`
 
-* [  ] Her öğeyi aşağıdaki gibi bir diziyle değiştirmek için country dizisini kullanın:
+* [ ] Her öğeyi aşağıdaki gibi bir diziyle değiştirmek için country dizisini kullanın:
   `[ ['Albania', 'ALB', 7], ['Bolivia', 'BOL', 7], …… ]`
 
 # Çift sayılar
