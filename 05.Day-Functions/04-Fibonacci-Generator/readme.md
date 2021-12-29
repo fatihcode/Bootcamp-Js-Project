@@ -39,7 +39,7 @@ Bu kadar basit!
 
 ### İpucu;
 
-> ```
+> ```js
 > // Döngü yapısı için
 > for(başlatma, koşul, artırma/azaltma){
 > // kod buraya gelir
@@ -112,7 +112,7 @@ Create an if statement for this situtation and give output manually.
 
 ### Hint;
 
-> ```
+> ```js
 > // For loop structure
 > for(initialization, condition, increment/decrement){
 > // code goes here
