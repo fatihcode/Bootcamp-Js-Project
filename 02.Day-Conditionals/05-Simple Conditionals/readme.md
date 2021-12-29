@@ -11,7 +11,9 @@
 * [ ] Komut isteminden not alın ve uyarı ekranına sonucu verin.
 * [ ] Kullanıcının 0-100 arasında bir sayı verdiğinden emin olun. Başka ise kullanın.
 
-**Meydan okuma: bunu üçlü operatörle yapın.**
+### Meydan Okuma!;
+
+* [ ] Bunu ternary operatörle yapın.
 
 ## Sezonu Kontrol Et
 
@@ -54,7 +56,9 @@
 * [ ] Collect note from prompt and give result to alert screen.
 * [ ] Make sure, user gives a number between 0-100. Use if else.
 
-**Challange: make this with ternary operator.**
+### Challenge!;
+
+* [ ] Make this with ternary operator.
 
 ## Check Season
 

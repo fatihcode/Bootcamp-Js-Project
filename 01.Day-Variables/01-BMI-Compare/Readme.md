@@ -17,12 +17,12 @@
 
 * [ ] Sonucu şöyle bir şekilde günlüğe kaydetmek için konsol.log ve dize enterpolasyonunu (tüm adımlardaki değişkenleri içerir) kullanın: Mark'ın BMI'si John'unkinden daha mı yüksek? Cevap "doğru". Çünkü Mark'ın VKİ'si BMIMARK ve John'un VKİ'si BMIJOHN
 
-### Meydan okuma!
+### Meydan okuma!;
 
 * [ ] Çalışmanızı zenginleştirin. İstemi kullanarak değerler ekleyebilir ve sonucunuzu uyarı ekranında görmek için dize enterpolasyonunu kullanabilirsiniz.
 * [ ] Readme dosyası hazırlayın ve çalışmanızı github hesabına gönderin.
 
-## Ek Adım!
+## Ek Adım!;
 
 * [ ] Dilerseniz bu karşılaştırmayı 5. adımda oluşturduğunuz boolean değişkeni yerine bir if else deyimi ile yapabilirsiniz.
 
@@ -58,12 +58,12 @@ According to the console, create a boolean variable higherBMI containing informa
 * [ ] Use console.log and string interpolation (containing the variables from all steps) to log the result something like this:
   Is Mark's BMI is higher than John's? Answer is “true". Because Mark's BMI is BMIMARK and John's BMI is BMIJOHN
 
-### Challange!
+### Challenge!;
 
 * [ ] Enrich your work. You can add values by using prompt and use string interpolation to see your result in alert screen.
 * [ ] Prepare a Readme file and send your work to the github account.
 
-## Additional Step!
+## Additional Step!;
 
 * [ ] If you wish, you can make this compare with an if else stattement instead of boolean variable that you created in step 5. Usage of if else statement example:
 

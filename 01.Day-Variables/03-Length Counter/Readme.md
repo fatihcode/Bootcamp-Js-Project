@@ -9,7 +9,7 @@
 * [ ] Sonucu aşağıdaki gibi günlüğe kaydetmek için `console.log` ve dize enterpolasyonunu kullanın: `TWEETCOUNT` karakter yazdınız, `TWEETLEFT` karakteriniz kaldı.
 * [ ] Sonuçlarınızı görmek için butona tıklayarak programınızı çalıştırın!
 
-### Meydan okuma!
+### Meydan okuma!;
 
 * [ ] Çalışmanızı zenginleştirin. Uyarı sonucunda adınızı görmek için bir ad istemi ekleyebilir ve dize enterpolasyonunu kullanabilirsiniz.
 * [ ] Tweet girmek için komut istemini kullanarak kodunuzu değiştirin ve sonucu uyarın.
@@ -29,7 +29,7 @@
 * [ ] Use `console.log` and string interpolation to log the result as follows: You have written `TWEETCOUNT` characters, you have `TWEETLEFT` charecters remaining.
 * [ ] Run your program by clicking the button to see your results!
 
-### Challange!
+### Challenge!;
 
 * [ ] Enrich your work. You can add a name prompt and use string interpolation to see your name in alert result.
 * [ ] Change your code using prompt to input tweet, and alert the result.

@@ -23,13 +23,13 @@
 * [ ] Harika! Herhangi bir insan yaşını köpek yaşına dönüştürebilirsiniz. `myAge`'i değiştirmeyi deneyin ve ne olduğunu görün.
 * [ ] Fazladan alıştırma yapmak isterseniz, bu projeyi `*=` operatörü olmadan yazmayı deneyin.
 
-## Ek adım
+## Ek adım;
 
 * [ ] İşini tersine çevir. Herhangi bir köpek yaşını insan yılına dönüştürebilirsiniz. Değişkenleri ve hesaplamaları değiştirmeyi deneyin.
 * [ ] Yaşınızı girmek için komut istemini kullanarak kodunuzu değiştirin ve sonucu uyarın.
 * [ ] Readme dosyası hazırlayın ve çalışmanızı github hesabına gönderin.
 
-### Meydan okuma!
+### Meydan okuma!;
 
 *İşte "kaplumbağa yaşından" "insan yaşına" yeni dönüşüm:*
 
@@ -73,13 +73,13 @@
 * [ ] Great work! You can convert any human age to dog years. Try changing myAge and see what happens.
   If you’d like extra practice, try writing this project without the `*=` operator.
 
-## Additional Step!
+## Additional Step!;
 
 * [ ] Reverse your work. You can convert any dog age to human years. Try changing variables and calculations.
 * [ ] Change your code using prompt to input your age, and alert the result.
 * [ ] Prepare a Readme file and send your work to the github account.
 
-### Challange!
+### Challenge!;
 
 *Here's new convertion from “tortoise years” to “human years”:*
 

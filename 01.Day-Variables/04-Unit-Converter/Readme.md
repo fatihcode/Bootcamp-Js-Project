@@ -26,7 +26,7 @@ Ekstra pratik yapmak isterseniz şunu deneyin:
 * [ ] `.floor()` yöntemini kullanarak Newton sıcaklığını aşağı yuvarlayın
 * [ ] Sıcaklığı newton cinsinden konsola kaydetmek için console.log ve string enterpolasyonunu kullanın.
 
-### Meydan okuma!
+### Meydan okuma!;
 
 * [ ] Çalışmanızı zenginleştirin. "Hız" veya "kütle" birimlerini dönüştürebilirsiniz.
 * [ ] Google Converter'ı (Chrome ile) açın ve değerler ve formüller için birim dönüştürücüye bakın. Değişkenleri ve hesaplamaları değiştirmeyi deneyin.
@@ -65,7 +65,7 @@ For example, 283 K converts to 10 °C which converts to 50 °F.*
 * [ ] Round down the Newton temperature using the `.floor()` method
 * [ ] Use `console.log` and string interpolation to log the temperature in newton to the console.
 
-### Challange!
+### Challenge!;
 
 * [ ] Enrich your work. You can convert “speed” or “mass” units.
 * [ ] Open Google Converter (with Chrome) and look at the unit converter for values and formulas. Try changing variables and calculations.

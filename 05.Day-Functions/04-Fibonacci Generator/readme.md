@@ -136,7 +136,7 @@ Create an if statement for this situtation and give output manually.
 
 ***Congratulations!***
 
-## Additional Step:
+## Additional Step!;
 
 The Golden Ratio "φ" (symbol is the Greek letter "phi" shown at left)
 is a special number approximately equal to 1,618.

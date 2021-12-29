@@ -17,7 +17,7 @@
 
   `Örneğin; 'John'un takımı Mary'ye karşı '99' ila '87' ortalama puanla kazanır'.`
 
-### Meydan Okuma;
+### Meydan Okuma!;
 
 * [ ] İsterseniz oyun puanlarını istemden alabilirsiniz.
 
@@ -42,6 +42,6 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 
   `For example; 'John's team wins againts to Mary with '99' to '87' points of average'.`
 
-### Challenge;
+### Challenge!
 
 * [ ] If you want, you can receive game scores from prompt.

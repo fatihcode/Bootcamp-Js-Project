@@ -54,7 +54,7 @@
 * [ ] idealHours'u bir parametre yapın ve 7 ile çarpın.
   `const getIdealStudyHours = idealHours => idealHours * 7;`
 
-### Ek Adım!
+### Ek Adım!;
 
 * [ ] Erken bitirirseniz bir sonraki Projeyi geçmeyin, bu adımı yapın.
 * [ ] Sadece günleri değil, farklı parametreleri kullanan yeni bir hesap makinesi (son projeyi kopyalayın) yapın. Her çalışmaya zaman puanı verin.
@@ -132,7 +132,7 @@ Now that you have actualStudyHours and idealStudyHours, you can write a few if/e
 To make this calculator more helpful, add the hours the user is over or under their ideal study in each log statement in calculateStudyDebt().
 
 You can interpolate the math inside the string passed to console.log() to print. For instance, if the user got less study than is ideal, you could write:
-console.log('You got ' + (idealStudyHours - actualStudyHours) + ' hour(s) less study than you needed this week. Create some empty time to study.');
+`console.log('You got ' + (idealStudyHours - actualStudyHours) + ' hour(s) less study than you needed this week. Create some empty time to study.');`
 
 On the last line of the program, start the program by calling the calculateStudyDebt() function.
 
@@ -146,7 +146,7 @@ const getActualStudyHours = () => 6 + 7 + 9 + 8 + 5 + 10 + 11;
 Make idealHours a parameter and multiply it by 7.
 const getIdealStudyHours = idealHours => idealHours * 7;
 
-### Additional Step!
+### Additional Step!;
 
 * [ ] If you finish early do not pass the next Project, do this step.
 
