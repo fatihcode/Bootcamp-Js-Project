@@ -1,9 +1,9 @@
 ## Ülkeler:
 
-`const country = [ 'Arnavutluk', 'Bolivya', 'Kanada', 'Danimarka', 'Etiyopya', 'Finlandiya', 'Almanya', Macaristan', 'İrlanda', 'Japonya', 'Kenya' ]`
+`const countries = [ 'Albania', 'Bolivia', 'Canada', 'Denmark', 'Ethiopia', 'Finland', 'Germany', Hungary', 'Ireland', 'Japan', 'Kenya' ]`
 
 * Her öğeyi aşağıdaki gibi bir diziyle değiştirmek için country dizisini kullanın:
-  `[ ['Arnavutluk', 'ALB', 7], ['Bolivya', 'BOL', 7], …… ]`
+ `[ ['Albania', 'ALB', 7], ['Bolivia', 'BOL', 7], …… ]`
 
 ## Çift sayılar:
 
@@ -13,7 +13,6 @@
 
 * 5, 25, 125, 625, 3125 ve 15625 içeren bir dizi oluşturun;
 * Çıktıya tek sayıları veren bir fonksiyon yazın.
-
 * Bundan sonra, tüm sayıları “25” e bölün.
 
 *İPUCU: Filtre ve harita yöntemlerini kullanabilirsiniz.*
@@ -37,7 +36,6 @@
 
 * Create an array contains 5, 25, 125, 625, 3125 and 15625;
 * Write a function gives output the odd numbers.
-
 * After that, divide all numbers to the “25.
 
 *HINT: You can use filter and map methods.*
