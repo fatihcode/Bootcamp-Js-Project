@@ -4,11 +4,10 @@
 
 *Garsona makul bir miktar bahşiş vermek için John basit bir bahşiş hesaplayıcısı yarattı (işlev olarak) bahşiş vermeyi sever;*
 
-> • Fatura 50 dolardan az olduğunda faturanın %20'si,
-> • Fatura 50\$ ile 200\$ arasında olduğunda %15,
-> • Fatura 200 dolardan fazla ise %10.
-
-> (NOT: Bir değerin %20'sini hesaplamak için 20/100 = 0,2 ile çarpmanız yeterlidir)
+* *Fatura 50 dolardan az olduğunda faturanın %20'si,*
+* *Fatura 50\$ ile 200\$ arasında olduğunda %15,*
+* *Fatura 200 dolardan fazla ise %10.
+  (NOT: Bir değerin %20'sini hesaplamak için 20/100 = 0,2 ile çarpmanız yeterlidir)*
 
 * [ ] Herhangi bir fatura tutarının ipucunu döndüren bir işlev oluşturabilirsiniz.
 * [ ] `Bill` adlı tek bir parametreyle hesaplanan İpuçları adlı bir işlev oluşturun.
@@ -32,11 +31,10 @@
 
 *To tip the waiter a fair amount, John created a simple tip calculator (as a function). He likes to tip;*
 
-> •	20% of the bill when the bill is less than $50,
-> •	15% when the bill is between $50 and $200,
-> •	10% if the bill is more than $200.
-
-> (NOTE: To calculate 20% of a value, simply multiply it with 20/100 = 0.2)
+* *20% of the bill when the bill is less than $50,*
+* *15% when the bill is between $50 and $200,*
+* *10% if the bill is more than $200.
+  (NOTE: To calculate 20% of a value, simply multiply it with 20/100 = 0.2)*
 
 * [ ] You can create a function that returns any given bill amount''s tip.
 * [ ] Create a function named calculateTips with a single parameter named bill.

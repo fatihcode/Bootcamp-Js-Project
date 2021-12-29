@@ -25,24 +25,30 @@
 
 ### İpucu;
 
-> Math.random(), 0 (dahil) ile 1 (hariç) arasında bir değer döndürür.
-> Bu sayı kümesini 0 (dahil) ile 1000 (hariç) arasında bir aralık yapmak için döndürülen değeri 1000 ile çarpabiliriz. Son olarak, yalnızca 0'dan 999'a kadar tam sayılara sahip olduğumuzdan emin olmak için Math.floor()'u kullanarak aşağı yuvarlayabiliriz.
+> `Math.random()`, 0 (dahil) ile 1 (hariç) arasında bir değer döndürür.
+> Bu sayı kümesini 0 (dahil) ile 1000 (hariç) arasında bir aralık yapmak için döndürülen değeri 1000 ile çarpabiliriz. Son olarak, yalnızca 0'dan 999'a kadar tam sayılara sahip olduğumuzdan emin olmak için `Math.floor()`'u kullanarak aşağı yuvarlayabiliriz.
 >
-> `let raceNumber = Math.floor(Math.random() * 1000);`
+> ```js
+> let raceNumber = Math.floor(Math.random() * 1000);
+> ```
 
 * [ ] Bir koşucunun erken kayıt olup olmadığını gösteren bir değişken oluşturun.
 * [ ] Bir Boolean değerine eşit olarak ayarlayın. Bunu daha sonra farklı koşucu koşullarını test ederken değiştireceksiniz.
 
 ### İpucu;
 
-> `const registeredEarly = false;`
+> ```js
+> const registeredEarly = false;
+> ```
 
 * [ ] Koşucunun yaşı için bir değişken oluşturun ve bunu bir sayıya eşitleyin.
 * [ ] Bunu daha sonra farklı koşucu koşullarını test ederken değiştireceksiniz.
 
 ### İpucu;
 
-> `const age = 19;`
+> ```js
+> const age = 19;
+> ```
 
 * [ ] Koşucunun yetişkin olup olmadığını ve erken kayıt olup olmadığını kontrol eden bir kontrol akışı ifadesi oluşturun.
 * [ ] Bu doğruysa, raceNumber'larına 1000 ekleyin.
@@ -59,7 +65,7 @@
 
 > Bu adım bir if ifadesi, && mantıksal işleci, console.log ve dize enterpolasyonu gerektirir.
 >
-> ```
+> ```js
 > if (koşul && koşul) {
 >  console.log('ifade');
 >  }
@@ -74,26 +80,26 @@
 
 > Bu adım, && ve ! mantıksal işleçler, console.log ve dize enterpolasyonu.
 >
-> ```
+> ```js
 > if (koşul && koşul) {
-> konsol.log('ifade');
+> console.log('ifade');
 > } else if (koşul && !şart) {
-> konsol.log('diğer ifade');
+> console.log('diğer ifade');
 > }
 > ```
 
 * [ ] “Genç kayıt yaptıranlar öğlen 12:30'da koşar (kayıttan bağımsız olarak)”
-* [ ] 18 yaşından küçükler için, konsola 12:30'da yarışacaklarını bildiren bir açıklama yazın. RaceNumber'larını ekleyin.
+* [ ] 18 yaşından küçükler için, consolea 12:30'da yarışacaklarını bildiren bir açıklama yazın. RaceNumber'larını ekleyin.
 
 ### İpucu;
 
-> ```
+> ```js
 > if (koşul && koşul) { 
-> konsol.log('ifade'); 
+> console.log('ifade'); 
 > } else if (koşul && !şart) { 
-> konsol.log('diğer ifade'); 
+> console.log('diğer ifade'); 
 > } else if (koşul) { 
-> konsol.log('başka bir ifade'); 
+> console.log('başka bir ifade'); 
 > }
 > ```
 
@@ -103,10 +109,11 @@
 ### İpucu;
 
 > Kodunuz doğru çalışıyorsa, bunların tümü doğru olmalıdır:
-> 25 yaşını doldurmuş ve erken kayıt yaptıran koşucular saat 09:30'da koşacaktır.
-> 25 yaşını doldurmuş ve erken kayıt yaptırmayan koşucular saat 11:00'de koşacaktır.
-> 16 yaşını doldurmuş ve erken kayıt yaptıran koşucular saat 12:30'da koşacaktır.
-> 16 yaşında olup erken kayıt yaptırmayan koşucular saat 12:30'da koşacaktır.
+>
+> - 25 yaşını doldurmuş ve erken kayıt yaptıran koşucular saat 09:30'da koşacaktır.
+> - 25 yaşını doldurmuş ve erken kayıt yaptırmayan koşucular saat 11:00'de koşacaktır.
+> - 16 yaşını doldurmuş ve erken kayıt yaptıran koşucular saat 12:30'da koşacaktır.
+> - 16 yaşında olup erken kayıt yaptırmayan koşucular saat 12:30'da koşacaktır.
 
 * [ ] Tam 18 yaşında olan koşucuları unutmayın!
 * [ ] Koşucuya kayıt masasını görmesini söyleyen bir ifadeyi konsola kaydeden başka bir ifade ekleyin.
@@ -114,8 +121,9 @@
 ### İpucu;
 
 > Kodunuz doğru çalışıyorsa, bu doğru olmalıdır:
-> 18 yaşını doldurmuş ve erken kayıt yaptıran koşucuların kayıt masasını görmeleri gerekmektedir.
-> 18 yaşını doldurmuş ve erken kayıt OLMAYAN koşucuların kayıt masasını görmeleri gerekmektedir.
+>
+> - 18 yaşını doldurmuş ve erken kayıt yaptıran koşucuların kayıt masasını görmeleri gerekmektedir.
+> - 18 yaşını doldurmuş ve erken kayıt OLMAYAN koşucuların kayıt masasını görmeleri gerekmektedir.
 
 ---
 
@@ -145,25 +153,31 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 
 ### Hint;
 
-> Math.random() returns a value between 0 (inclusive) and 1 (exclusive).
+> `Math.random()` returns a value between 0 (inclusive) and 1 (exclusive).
 > In order to make this set of numbers range from 0 (inclusive) to 1000 (exclusive) we can multiply the returned value by 1000.
-> Finally, to ensure we only have whole numbers from 0 to 999 we can round down using Math.floor().
+> Finally, to ensure we only have whole numbers from 0 to 999 we can round down using `Math.floor()`.
 >
-> `let raceNumber = Math.floor(Math.random() * 1000);`
+> ```js
+> let raceNumber = Math.floor(Math.random() * 1000);
+> ```
 
 * [ ] Create a variable that indicates whether a runner registered early or not.
 * [ ] Set it equal to a Boolean value. You’ll change this later as you test different runner conditions.
 
 ### Hint;
 
-> `const registeredEarly = false;`
+> ```js
+> const registeredEarly = false;
+> ```
 
 * [ ] Create a variable for the runner’s age and set it equal to a number.
 * [ ] You’ll change this later as you test different runner conditions.
 
 ### Hint;
 
-> `const age = 19;`
+> ```js
+> const age = 19;
+> ```
 
 * [ ] Create a control flow statement that checks whether the runner is an adult AND registered early.
 * [ ] Add 1000 to their raceNumber if this is true.
@@ -180,7 +194,7 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 
 > This step requires an if statement, the && logical operator, console.log, and string interpolation.
 >
-> ```
+> ```js
 > if (condition && condition) { 
 > console.log('statement'); 
 > }
@@ -195,7 +209,7 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 
 > This step requires an else if statement, the && and ! logical operators, console.log, and string interpolation.
 >
-> ```
+> ```js
 > if (condition && condition) {
 > console.log('statement');
 > } else if (condition && !condition) {
@@ -208,7 +222,7 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 
 ### Hint;
 
-> ```
+> ```js
 > if (condition && condition) {
 > console.log('statement');
 > } else if (condition && !condition) {
@@ -224,10 +238,11 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 ### Hint;
 
 > If your code is working correctly, all of these should be true:
-> Runners who are 25 years old and registered early will run at 9:30 am.
-> Runners who are 25 years old and did NOT register early will run at 11:00 am.
-> Runners who are 16 years old and registered early will run at 12:30 pm.
-> Runners who are 16 years old and did NOT register early will run at 12:30 pm.
+>
+> - Runners who are 25 years old and registered early will run at 9:30 am.
+> - Runners who are 25 years old and did NOT register early will run at 11:00 am.
+> - Runners who are 16 years old and registered early will run at 12:30 pm.
+> - Runners who are 16 years old and did NOT register early will run at 12:30 pm.
 
 * [ ] Don’t forget about runners exactly 18 years old!
 * [ ] Add an else statement that logs a statement to the console telling the runner to see the registration desk.
@@ -235,5 +250,6 @@ Here’s how our registration works. There are adult runners (over 18 years of a
 ### Hint;
 
 > If your code is working correctly, this should be true:
-> Runners who are 18 years old and registered early should see the registration desk.
-> Runners who are 18 years old and did NOT register early should see the registration desk.
+>
+> - Runners who are 18 years old and registered early should see the registration desk.
+> - Runners who are 18 years old and did NOT register early should see the registration desk.

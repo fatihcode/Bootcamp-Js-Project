@@ -8,13 +8,10 @@
 * [ ] Bu kod satırını açıklayan bir yorum yazın.
 * [ ] Şimdi John'un yaşına göre konsola bir cümle yazdırın.
 * [ ] Anahtar kutusunu kullanın.
-    ```
-    13 yaşın altında; "John bir çocuk".
-    13 ile 20 yaş arasında; "John bir genç".
-    20-30 yaş arası; "John genç bir adam".
-    Diğer durumlar “John bir erkektir”.
-    ```
-
+  - 13 yaşın altında; "John bir çocuk".
+  - 13 ile 20 yaş arasında; "John bir genç".
+  - 20-30 yaş arası; "John genç bir adam".
+  - Diğer durumlar “John bir erkektir”.
 * [ ] Daha önce olduğu gibi, farklı sonuçlar elde etmek için yaşı değiştirin.
 
 ### Ekstra!
@@ -33,12 +30,10 @@
 * [ ] Write a comment above that explains this line of code.
 * [ ] Now print a sentence to the console according to John’s age.
 * [ ] Use switch case.
-    ```
-    Under age 13; “John is a boy”.
-    Between age 13 and 20; “John is a teenager”.
-    Between age  20 and 30; “John is a young man”.
-    Other cases “John is a man”.
-    ```
+  -  Under age 13; “John is a boy”.
+  -  Between age 13 and 20; “John is a teenager”.
+  -  Between age  20 and 30; “John is a young man”.
+  -  Other cases “John is a man”.
 * [ ] Like before, change the age to generate different results.
 
 ### Extra!

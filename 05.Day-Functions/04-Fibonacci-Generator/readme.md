@@ -19,7 +19,11 @@ Bu kadar basit!
 
 **Sonraki birkaç sayıyı bulabilir misin?**
 
-* Böyle; amacınız, bir fibonacci sayı oluşturucu işlevi oluşturmaktır. Örnek; `fibonacciGen(6) = [0, 1, 1, 2, 3, 5`]
+* Böyle; amacınız, bir fibonacci sayı oluşturucu işlevi oluşturmaktır. Örnek;
+
+  ```js
+  fibonacciGen(6) = [0, 1, 1, 2, 3, 5]
+  ```
 
 **Adımlara bakmadan tamamlamayı deneyin.**
 
@@ -47,17 +51,17 @@ Bu kadar basit!
 >
 > //örnekdizi = [45, 55, 65, 78, 83, 99]
 > for(let i = 0; i <= 5; i++){ // kodu döngü içinde 6 kez tekrarlamak anlamına gelir
-> konsol.log(arr[i]) // her “i” döngüsü +1 alır ve 5'e ulaştığında; döngü durur.
+> console.log(arr[i]) // her “i” döngüsü +1 alır ve 5'e ulaştığında; döngü durur.
 > }
 > //konsol şöyle olur: // 45 55 65 78 83 99
 >
 > // bununla aynı koddu;
-> konsol.log(dizi[0])
-> konsol.log(dizi[1])
-> konsol.log(dizi[2])
-> konsol.log(dizi[3])
-> konsol.log(dizi[4])
-> konsol.log(dizi[5])
+> console.log(arr[0])
+> console.log(arr[1])
+> console.log(arr[2])
+> console.log(arr[3])
+> console.log(arr[4])
+> console.log(arr[5])
 > ```
 
 ***Tebrikler!***
@@ -94,7 +98,11 @@ It is that simple!
 Here is a longer list:
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...
 Can you figure out the next few numbers?
-•	So; your goal is, creating a fibonacci number creater function. Example; `fibonacciGen(6) = [0, 1, 1, 2, 3, 5]`
+•	So; your goal is, creating a fibonacci number creater function. Example; 
+
+```js
+fibonacciGen(6) = [0, 1, 1, 2, 3, 5]
+```
 
 **Try complete it without looking steps.**
 
