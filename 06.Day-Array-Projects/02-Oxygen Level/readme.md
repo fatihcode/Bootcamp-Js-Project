@@ -21,7 +21,7 @@ Their computer detects a list of nearby planets that have Oxygen in their atmosp
 
 To be safe to land on, a planet needs to have an Oxygen level between **19.5%** and **23.5%**.
 
-* Write a function that finds the first safe oxygen level in the array oxygenLevels1
-* Write a function that finds the all safe oxygen level in the array oxygenLevels2
+* Write a function that finds the first safe oxygen level in the array `oxygenLevels1`
+* Write a function that finds the all safe oxygen level in the array `oxygenLevels2`
 
 ***Good luck!***
