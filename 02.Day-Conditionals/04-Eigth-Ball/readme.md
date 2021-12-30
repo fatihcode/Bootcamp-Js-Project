@@ -59,7 +59,9 @@
 
 ### İpucu;
 
-> `eightBall = '';`
+> ```js
+> eightBall = '';
+> ```
 
 * [ ] adımda yaptığımız `randomNumber`'ı alan ve ardından bir Fortune Eight Ball'un döndüreceği bir yanıta `eightBall` atanan bir kontrol akışı oluşturmamız gerekiyor. `if/else` veya `switch` deyimlerini kullanmayı düşünün. İşte `eightBall` değişkenine kaydetmek istediğimiz 8 Fortune Eight Ball ifadesi:
 
@@ -92,7 +94,9 @@ break;
 
 ### İpucu;
 
-`console.log(`
+```js
+console.log("Sekiz top cevap verdi: ${eightBall}");
+```
 
 * [ ] Konsolda rastgele sonuçların göründüğünü görmek için programınızı birkaç kez çalıştırın!
 
