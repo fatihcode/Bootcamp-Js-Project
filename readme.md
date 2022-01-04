@@ -47,3 +47,11 @@
 * 05-Sort-Projects
 * 06-Find-Transport
 * 07-Array-Projects
+
+## 07.Day [Projects]
+
+* 01-Animal-Language
+* 02-Company-Filter
+* 03-Cripto-Maker
+* 04-Password-Validator
+* 05-Shapes
