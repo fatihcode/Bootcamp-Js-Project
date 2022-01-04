@@ -23,7 +23,7 @@
 * 04-Study-Hard-Calculator
 * 05-Currency-Conversion
 
-## 04.Day [Basic-Arrays]
+## 04.Day [Basic Arrays]
 
 * 01-Quote-Fix
 * 02-Phone-Fixer
@@ -38,7 +38,7 @@
 * 04-Fibonacci-Generator
 * 05-Country-Filter
 
-## 06.Day [Array-Projects]
+## 06.Day [Array Projects]
 
 * 01-Random-Quote
 * 02-Oxygen-Level

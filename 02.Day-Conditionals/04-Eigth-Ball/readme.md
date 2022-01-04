@@ -78,17 +78,17 @@
 
 ### İpucu;
 
-```js
-switch (koşul) {
-case 0:
-eightBall = 'burada tahmin';
-break;
-case 1:
-eightBall = 'burada başka bir tahmin';
-break;
-// ek durumlar...
-}
-```
+> ```js
+> switch (koşul) {
+> case 0:
+> eightBall = 'burada tahmin';
+> break;
+> case 1:
+> eightBall = 'burada başka bir tahmin';
+> break;
+> // ek durumlar...
+> }
+> ```
 
 * [ ] Fortune Eight Ball'un yanıtını, yani `eightBall` değişkeninin değerini yazdırmak için bir `console.log()` yazın.
 
