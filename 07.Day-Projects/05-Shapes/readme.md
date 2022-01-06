@@ -42,6 +42,6 @@
 
 * [ ] Create a function that takes a number as an input and returns the shape with that number's amount of sides.
 
-*Note: You may use a large conditional but may be using “object”seems a lot better.*
+*Note: You may use a large conditional but may be using “object” seems a lot better.*
 
 ***Good luck!***
