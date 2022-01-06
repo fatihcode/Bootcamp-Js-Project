@@ -2,7 +2,11 @@
 
 *BMI'larını karşılaştıran Mark ve John'a geri dönelim!*
 
-*Bu sefer, hesaplamaları uygulamak için nesneleri kullanalım! Unutmayın: BMI = kütle / yükseklik ** 2 = kütle / (yükseklik * yükseklik). (kg cinsinden kütle ve metre cinsinden yükseklik)*
+*Bu sefer, hesaplamaları uygulamak için nesneleri kullanalım!* 
+
+**Unutmay****ın:** 
+
+> BMI = kütle / yükseklik ** 2 = kütle / (yükseklik * yükseklik). (kg cinsinden kütle ve metre cinsinden yükseklik)
 
 * [ ] Her biri için tam ad, kütle ve yükseklik özelliklerine sahip bir nesne oluşturun (Mark Miller ve John Smith)
 * [ ] BMI'yi hesaplamak için her nesnede bir 'calcBMI' yöntemi oluşturun (her iki nesnede de aynı yöntem). BMI değerini bir özelliğe (bmi) kaydedin ve ayrıca onu yöntemden döndürün.
@@ -26,9 +30,13 @@
 
 # BMI COMPARE
 
-Let's go back to Mark and John comparing their BMIs!
+*Let's go back to Mark and John comparing their BMIs!*
 
-This time, let's use objects to implement the calculations! Remember: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter)
+*This time, let's use objects to implement the calculations!* 
+
+**Remember:** 
+
+> BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter)
 
 * [ ] For each of them, create an object with properties for their full name, mass, and height (Mark  Miller and John Smith)
 * [ ] Create a 'calcBMI' method on each object to calculate the BMI (the same method on both objects). Store the BMI value to a property (bmi), and also return it from the method.

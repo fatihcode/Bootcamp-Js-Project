@@ -25,15 +25,15 @@
 
 # STAFF ADMINISTRATION:
 
-You have an array consist of staff objects in “staff.js”. Work on “script.js” file, do not change anything on “staff.js”.
+*You have an array consist of staff objects in **“staff.js”**. Work on **“script.js”** file, do not change anything on **“staff.js”**.*
 
 * [ ] First of all print out all staff objects seperately on the console.
 * [ ] Add a new property for all staff objects. Add an email property should look like `"lastname@coorparation.com"`.
 * [ ] Now, add a function named `“fullName”`to all objects; function should return a new fullname property with the concatenation of firstname and lastname.
 * [ ] Call your function for selected objects you wish, see the result.
-* [ ] Find all older than 21 age `staff`, print them out.
-* [ ] Sort staff according to their `experience`. From low to high.
-* [ ] Calculate the average age of the `staff`.
+* [ ] Find all older than 21 age staff, print them out.
+* [ ] Sort staff according to their experience. From low to high.
+* [ ] Calculate the average age of the staff.
 * [ ] You are trying to find a staff exect properties:
 
 * Staff should Turkish languange spoken,
