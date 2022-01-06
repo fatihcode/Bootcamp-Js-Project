@@ -19,18 +19,34 @@ PasswordValidationResult=  [false, false, true, false, false]
 
 const passwords1 = ["Se%5", "TktE.TJTU", "384#HsHF", "dvyyeyy!5", "tryT3729"]
 const passwords2 = ["StUFf27%", "Pl3nty!", "Jai33", "shajsaUA**&&", "Pl3nty!"]
-let previousPasswords = ["fhD8!yrjj", "ttkTu.wer3", "dvyyeyy!5", "qwbfj76%", "tytT3729.", "384#HsHf" , "Jai33"];
+let previousPasswords = ["fhD8!yrjj", "ttkTu.wer3", "dvyyeyy!5", "qwbfj76%", "tytT3729.", "384#HsHf", "Jai33"];
 
 
+const upperCase="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const loverCase="abcdefghijklmnopqrstuvwxyz"
 
 
 function validatePasswords(arr) {
 
-
+  const symbols = ["!", "#", "$", "%", ".", "*", "&"];
+  const arrUpperCase = upperCase.split("")
+  const arrLoverCase = loverCase.split("")
   
+  return arr.map(
+    
+    (password) =>
+    password.length >= 5 &&
+    password.split("").some((el) => arrUpperCase.includes(el)) &&
+    password.split("").some((el) => arrLoverCase.includes(el)) &&
+    password.split("").some((el) => el == Number(el)) &&
+    password.split("").some((el) => symbols.includes(el)) &&
+    password.split("").some((el) => !previousPasswords.includes(el))
+
+    );
 }
 
-
+console.log(validatePasswords(passwords1));
+console.log(validatePasswords(passwords2));
 
 
 
@@ -47,15 +63,15 @@ function validatePasswords(arr) {
 
 /* ======= TESTS - DO NOT MODIFY THIS PART===== */
 function test(test_name, actual, expected) {
-    let status;
-    for (i=0; i<actual.length; i++){
-      if (actual[i] === expected[i]) {
-        status = "PASSED";
-      } else {
-        status = `FAILED: expected: ${expected} but your function returned: ${actual}`;
-      }
+  let status;
+  for (i = 0; i < actual.length; i++) {
+    if (actual[i] === expected[i]) {
+      status = "PASSED";
+    } else {
+      status = `FAILED: expected: ${expected} but your function returned: ${actual}`;
     }
-    console.log(`${test_name}: ${status}`);
+  }
+  console.log(`${test_name}: ${status}`);
 }
 
 test("validatePasswords function works - case 1",

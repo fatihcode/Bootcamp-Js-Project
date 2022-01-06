@@ -55,3 +55,5 @@
 * 03-Cripto-Maker
 * 04-Password-Validator
 * 05-Shapes
+* 06-Staff-Administration
+* 07-BMI-Compare
