@@ -2,7 +2,7 @@
 
 *John ve Mike farklı takımlarda basketbol oynuyorlar. Son 3 maçta John'un takımı 89, 120 ve 103 sayı, Mike'ın takımı 116, 94 ve 123 sayı attı. Her takımın ortalama puanını hesaplayalım:*
 
-`"Ortalama Puan" = (skor_1 + puan_2 + puan_3) / 3`
+> "Ortalama Puan" = (skor_1 + puan_2 + puan_3) / 3
 
 * [ ] Bu projeyi koşullular bölümünde zaten yaptınız. Şimdi fonksiyonları kullanarak çözümünüzü değiştirin ve diziler olabilir. Skorları diziye koyun.
 
@@ -27,7 +27,7 @@
 
 John and Mike both play basketball in different teams. In the latest 3 games, John's team scored 89, 120 and 103 points, while Mike's team scored 116, 94 and 123 points. Let’s calculate the average score of each team:
 
-`“Average Score” = (score_1 + score_2 + score_3) / 3`
+> “Average Score” = (score_1 + score_2 + score_3) / 3
 
 * [ ] You already did this project under conditionals section. Now change your solution by using functions and may be arrays. Put scores in array.
 

@@ -38,7 +38,7 @@
 * 04-Fibonacci-Generator
 * 05-Country-Filter
 
-## 06.Day [Array Projects]
+## 06.Day [Arrays]
 
 * 01-Random-Quote
 * 02-Oxygen-Level
@@ -48,7 +48,7 @@
 * 06-Find-Transport
 * 07-Array-Projects
 
-## 07.Day [Projects]
+## 07.Day [Basic Objects]
 
 * 01-Animal-Language
 * 02-Company-Filter

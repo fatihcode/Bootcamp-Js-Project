@@ -3,10 +3,10 @@
 *Öğrencilere puanlarına göre not veren bir kod yazın:*
 
 * 80 - 100, A
-* 70 - 89, B
-* 60 - 69, C
-* 50 - 59, D
-* 0 - 49, F
+* 70 - 89,  B
+* 60 - 69,  C
+* 50 - 59,  D
+* 0 - 49,   F
 
 * [ ] Komut isteminden not alın ve uyarı ekranına sonucu verin.
 * [ ] Kullanıcının 0-100 arasında bir sayı verdiğinden emin olun. Başka ise kullanın.
@@ -50,10 +50,10 @@ Ocak 31 gündür.
 *Write a code which give grade students according to theirs scores:*
 
 * 80 - 100, A
-* 70 - 89, B
-* 60 - 69, C
-* 50 - 59, D
-* 0 - 49, F
+* 70 - 89,  B
+* 60 - 69,  C
+* 50 - 59,  D
+* 0 - 49,   F
 
 * [ ] Collect note from prompt and give result to alert screen.
 * [ ] Make sure, user gives a number between 0-100. Use if else.

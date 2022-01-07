@@ -4,8 +4,8 @@
 
 *Yaşınızı "insan yaşından" "köpek yaşına" nasıl çevireceğiniz aşağıda açıklanmıştır:*
 
-* *Bir köpeğin yaşamının ilk iki yılı, her biri 10,5 köpek yılı olarak sayılır.*
-* *Takip eden her yıl 4 köpek yılına eşittir.*
+> * Bir köpeğin yaşamının ilk iki yılı, her biri 10,5 köpek yılı olarak sayılır.
+> * Takip eden her yıl 4 köpek yılına eşittir.
 
 *Kafanızda matematiği yapmaya başlamadan önce, bırakın bir bilgisayar icabına baksın! Matematik operatörleri ve değişkenler hakkındaki bilginizle, insan yaşınızı köpek yıllarına dönüştürmek için JavaScript kullanın.*
 
@@ -49,8 +49,8 @@
 
 *Here’s how you convert your age from “human years” to “dog years”:*
 
-* *The first two years of a dog’s life count as 10.5 dog years each.*
-* *Each year following equates to 4 dog years.*
+>* The first two years of a dog’s life count as 10.5 dog years each.
+>* Each year following equates to 4 dog years.
 
 *Before you start doing the math in your head, let a computer take care of it! With your knowledge of math operators and variables, use JavaScript to convert your human age into dog years.*
 

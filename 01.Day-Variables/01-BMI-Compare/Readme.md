@@ -1,7 +1,8 @@
 # Kütle Karşılaştırma Projesi
 
 *JavaScript bilgimizle, aşağıdaki formül kullanılarak hesaplanan Mark's ve John's BMI'yi (Vücut Kitle İndeksi) hesaplayıp karşılaştıralım:*
-`BMI = kütle / yükseklik2 = kütle / (yükseklik * yükseklik). (kg cinsinden kütle ve metre cinsinden yükseklik).`
+
+> BMI = kütle / yükseklik2 = kütle / (yükseklik * yükseklik). (kg cinsinden kütle ve metre cinsinden yükseklik).
 
 * [ ] Başlamak için, Mark'ın ve John'un kütlesini ve yüksekliğini değişkenlerde saklayın. `massMark` , `massJohn`, `heightMark` ve `heightJohn` adlı değişkenler oluşturun, bunları bir değere eşitleyin.
 * [ ] Verilen formülü kullanarak her ikisinin de BMI'sini hesaplayın. Sonuçları `BMIJohn` ve `BMIMark` adlı değişkenlere ayarlayın.
@@ -42,7 +43,8 @@ console.log("someValue, otherValue'dan daha düşük");
 # Mass Compare Project
 
 *With our knowledge of JavaScript, let’s calculate and compare of the Mark’s and John’s BMI (Body Mass Index), which is calculated using the formula:*
-`BMI = mass / height2 = mass / (height * height). (mass in kg and height in meter).`
+
+> BMI = mass / height2 = mass / (height * height). (mass in kg and height in meter).
 
 * [ ] To start, Store Mark's and John's mass and height in variables. Create variables named `massMark` , `massJohn` , `heightMark` and `heightJohn` set them equal to some value.
 * [ ] Calculate both their BMIs using the given formula. Set the results to variables named `BMIJohn` and `BMIMark`.
