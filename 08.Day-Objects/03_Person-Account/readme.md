@@ -7,19 +7,20 @@
 * [ ] `“addIncome”` yöntemi yeni gelirler ekler. Bunun için bir parametre alır.
 * [ ] `“addExpense”` yöntemi yeni giderler ekler. Bunun için bir parametre alır.
 * [ ] `“accountInfo”` yöntemi, kişinin toplam kârını gösteren bir dize döndürür.
-* [ ] İlgili yöntemleri kullanarak bazı gelir ve giderleri ekleyin.
-* [ ] İlgili yöntemleri kullanarak toplam gelir ve giderleri hesaplayın.
+* [ ] İlgili yöntemleri kullanarak bazı `incomes` ve `expenses`  ekleyin.
+* [ ] İlgili yöntemleri kullanarak toplam `incomes` ve `expenses`  hesaplayın.
 * [ ] Ve bunun gibi konsol mesajı:
 
-    ```
-    “Toplam geliri var: 3150$”
-    ```
+  ```
+  “Toplam geliri var: 3150$”
+  ```
+* [ ] Bu kullanıcı hesabı bilgilerini konsola yazdırın.
 
-* [ ] Bu kullanıcı hesabı bilgilerini konsola yazdırın. Örnek çıktı:
+  **Örnek çıktı:**
 
-    ```
-    “Bruce Brown bugün toplam 260$ kâra sahip”
-    ```
+  ```
+  “Bruce Brown bugün toplam 260$ kâra sahip”
+  ```
 
 ***İyi şanslar!***
 
@@ -34,17 +35,19 @@
 * [ ] `“addIncome”` method adds new incomes. Takes one parameter for that.
 * [ ] `“addExpense”` method adds new expenses. Takes one parameter for that.
 * [ ] `“accountInfo”` method returns a string that shows the total profit of the person.
-* [ ] Add some incomes and expenses by using related methods.
-* [ ] Calculate total incomes and expenses by using related methods.
+* [ ] Add some `incomes` and `expenses` by using related methods.
+* [ ] Calculate total `incomes` and `expenses` by using related methods.
 * [ ] And console message like this:
 
   ```
   “He has total income : 3150$”
   ```
-* [ ] Print this user accounts info in to the console. Example output:
+* [ ] Print this user accounts info in to the console.
 
-    ```
-    “Bruce Brown has total 260$ profit today”
-    ```
+  **Example output:**
+
+  ```
+  “Bruce Brown has total 260$ profit today”
+  ```
 
 ***Good luck!***

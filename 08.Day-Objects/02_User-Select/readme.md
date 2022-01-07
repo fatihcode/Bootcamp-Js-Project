@@ -26,10 +26,8 @@
 * [ ] Get all keys or properties of users object. Print them out.
 * [ ] Get all the values of users object. Print them out.
 * [ ] Get the length of this object.
-* [ ] Find the person who has most skills than the others in the users
-  object.
-* [ ] Count users having greater than equal to 50 points from the users
-  object.
+* [ ] Find the person who has most skills than the others in the users object.
+* [ ] Count users having greater than equal to 50 points from the users object.
 * [ ] Find people who are MERN stack developer from the users object. Print out number of MERN users and their names.
 * [ ] Set your name in the users object without modifying the original users object.
 * [ ] Add a method for all users to print a string like:

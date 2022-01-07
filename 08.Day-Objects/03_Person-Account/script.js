@@ -9,30 +9,25 @@ const personAccount = {
     totalExpense() {
         return this.expenses.reduce((a, b) => a + b, 0)
     },
-    addIncome(val){
+    addIncome(val) {
         this.incomes.push(val)
 
     },
-    addExpenses(val){
+    addExpenses(val) {
         this.expenses.push(val)
     },
     accountInfo() {
         let total = this.totalIncome() - this.totalExpense()
         return `Toplam Net Gelir ${total}$`
-
     },
-
 }
 
-console.log(personAccount.totalIncome())
 
-console.log(personAccount.totalExpense())
 
 console.log(personAccount.accountInfo())
 
 personAccount.addIncome(600)
 
 personAccount.addExpenses(200)
-
 
 console.log(personAccount.accountInfo())

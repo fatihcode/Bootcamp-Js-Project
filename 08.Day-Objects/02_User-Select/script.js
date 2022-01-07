@@ -1,51 +1,55 @@
+console.warn("// Get all keys or properties of users object. Print them out.")
+
 for (let key in users) {
     console.log(key)
 }
 
+
+
+console.warn("// Get all the values of users object. Print them out.")
+
 for (let i in users) {
     console.log(users[i])
-
 }
-console.warn("---------------------------")
+
 console.log(Object.values(users))
 
-console.warn("---------------------------")
+
+
+console.warn("//Get the length of this object.")
 
 console.log(Object.values(users).length)
 
-console.warn("---------------------------")
-
-// console.log(users.map(item => (item.skills).length))
-
-// let skillss = users.sort((a, b) => a.skills.length - b.skills.length)
 
 
-// console.log(skillss)
+console.warn("// Find the person who has most skills than the others in the users object.")
+
 
 let yetenek = Object.keys(users).sort((a, b) => users[b].skills.length - users[a].skills.length)
 
 console.log(yetenek[0])
 
-let filter50 = Object.keys(users).filter(item => [item].points > 50)
 
-console.log(filter50)
+console.warn("// Count users having greater than equal to 50 points from the users object.")
+
 
 let i = 0
-for (let key in users) {
 
+for (let key in users) {
     if (users[key].points >= 50) {
         i++
-
     }
 }
 
 console.log(i)
 
 
+console.warn("// Find people who are MERN stack developer from the users object. Print out number of MERN users and their names.")
+
+
 let a = []
 
 for (let key in users) {
-
     if (users[key].skills.includes('MongoDB' && 'Express' && 'React' && 'Node')) {
         a.push(key)
     }
@@ -54,7 +58,9 @@ for (let key in users) {
 console.log(a)
 
 
-users.fatih = {
+console.warn("// Set your name in the users object without modifying the original users object.")
+
+users.Fatih = {
     email: 'fatih@john.com',
     skills: ['HTML', 'CSS', 'JavaScript'],
     age: 35,
@@ -65,20 +71,17 @@ users.fatih = {
 
 console.log(users)
 
-console.warn("---------------------------")
 
+console.warn("// Add a method for all users to print a string like:")
 
 
 for (const key in users) {
-users[key].print = function () {
-   return `${key} ${this.age} yaşında. ${this.skills} biliyor.`
-}
+    users[key].print = function () {
+        return `${key} ${this.age} yaşında. ${this.skills} biliyor.`
+    }
 }
 
-console.log(users)
-console.warn("---------------------------")
 
 for (let key in users) {
-console.log(users[key].print())
+    console.log(users[key].print())
 }
-
