@@ -57,3 +57,10 @@
 * 05-Shapes
 * 06-Staff-Administration
 * 07-BMI-Compare
+  
+## 08.Day [Objects]
+
+* 01-Animal-Select
+* 02-User-Select
+* 03-Person-Account
+* 04-Team-Selector
