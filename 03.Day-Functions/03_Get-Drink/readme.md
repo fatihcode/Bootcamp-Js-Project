@@ -2,7 +2,11 @@
 
 *Bir alışveriş robotunuz var ve marketten içecek sipariş etmek istiyorsunuz. Robotunuzu programlamak için bir fonksiyon yazın. Evden markete yol tarifinizi konsolda verin.*
 
-*Size şu şekilde cevap vermelidir:* `"Merhaba usta burada <sayı> şişeniz ve işte $<değişim> değişikliğiniz"`
+***Size şu şekilde cevap vermelidir:***
+
+```
+"Merhaba usta burada <sayı> şişeniz ve işte $<değişim> değişikliğiniz"
+```
 
 * [ ] Başlamak için talimatlarınızı konsolla verin. İkinci sayfaya bakabilirsiniz.
 * [ ] Verilen Para miktarına göre robotun kaç tane içecek satın alabileceğini hesaplayan bir `calcBottles` işlevi oluşturun.
@@ -22,7 +26,11 @@
 *You have a shopping robot and want to order some drinks from market.
 Write a function to programme your robot. Give your directions from home to the market on console.*
 
-*It should answer you like this:* `“Hello master here is your `
+***It should answer you like this:***
+
+```
+“Hello master here is your <number> of bottles and here is your $<change> change”
+```
 
 * [ ] To start, give your instructions with console. You can look at the second page.
 * [ ] Create a function `calcBottles` that calculate how many drink robot can buy, according to the given amount of Money.

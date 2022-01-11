@@ -64,3 +64,8 @@
 * 02-User-Select
 * 03-Person-Account
 * 04-Team-Selector
+
+## 09.Day [Document Object Model]
+
+* 01-Dice-Challenge
+* 02-Choose-Door
