@@ -14,29 +14,41 @@ let numClosedDoors = 3;
 
 let openDoor1, openDoor2, openDoor3;
 
+let c1, c2, c3 = false
+
 doorImage1.onclick = () => {
-    doorImage1.src = openDoor1
-    console.log(numClosedDoors)
-    numClosedDoors--
+    if (!c1) {
+        c1 = true
+        doorImage1.src = openDoor1
+        console.log(numClosedDoors)
+        numClosedDoors--
+    }
 }
 
 doorImage2.onclick = () => {
-    doorImage2.src = openDoor2
-    console.log(numClosedDoors)
-    numClosedDoors--
+    if (!c2) {
+        c2 = true
+        doorImage2.src = openDoor2
+        console.log(numClosedDoors)
+        numClosedDoors--
+    }
 }
 
 doorImage3.onclick = () => {
-    doorImage3.src = openDoor3
-    console.log(numClosedDoors)
-   numClosedDoors--
+    if (!c3) {
+        c3 = true
+        doorImage3.src = openDoor3
+        console.log(numClosedDoors)
+        numClosedDoors--
+    }
 }
 
 console.log(numClosedDoors)
 
 const random = function randomFindDoorGenerator() {
 
-    let findDoor = Math.floor(Math.random() * (numClosedDoors*2))
+    let findDoor = Math.floor(Math.random() * 6)
+    console.log(findDoor)
 
     switch (findDoor) {
         case 0:
@@ -96,4 +108,8 @@ start.onclick = () => {
     doorImage2.src = closedDoorPath
     doorImage3.src = closedDoorPath
     numClosedDoors = 3
+    c1 = false
+    c2 = false
+    c3 = false
+    random()
 }

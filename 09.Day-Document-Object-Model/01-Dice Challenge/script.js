@@ -5,6 +5,7 @@ function random() {
 const startButton = document.getElementById("start")
 
 startButton.onclick = function run() {
+    
     let random1 = random()
     let random2 = random()
 

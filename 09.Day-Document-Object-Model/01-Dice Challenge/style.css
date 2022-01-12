@@ -18,7 +18,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 7rem;
+  font-size: 8rem;
   color: #4ECCA3;
 }
 
@@ -31,7 +31,7 @@ p {
 
 .player-win {
   font-size: 2rem;
-  color: red;
+  color:red;
   font-weight: bold;
 }
 
@@ -48,18 +48,16 @@ footer {
 }
 
 .btn {
+  
   color: #444;
   background: none;
   border: none;
-  font-family: 'Segoe UI', sans-serif;
-  font-weight: bold;
+  font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-
-  margin-bottom: 50px;
 
   background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
