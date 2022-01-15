@@ -32,4 +32,12 @@ const team = {
     }
 }
 
+console.log(team)
+
+team.positions = (1,2,3)
+
+team._positions.centers = "alie"
+
+console.log(team)
+
 // team.centers("ali")

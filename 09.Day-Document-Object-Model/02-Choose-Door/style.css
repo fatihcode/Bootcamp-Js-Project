@@ -1,5 +1,5 @@
 body {
-  background-color: #010165;
+  background-color: #CFD6D9;
   margin: 0px;
 }
 
@@ -8,6 +8,7 @@ h1 {
   background-color: #00ffff;
   text-align: center;
   margin-top: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title-row {
@@ -55,13 +56,24 @@ h1 {
 .start-row {
   margin: auto;
   width: 140px;
-  height: 43px;
+  height: 45px;
   font-family: 'Work Sans';
   background-color: #eb6536;
-  padding-top: 18px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
   text-align: center;
-  color: #010165;
+  color: #fff;
   margin-bottom: 21px;
   cursor: pointer;
+  border-radius: 10px;
+  line-height: 1.2em;
+}
+
+.start-row-lose{
+  background-color: #bb2d3b;
+}
+
+.start-row-win{
+  background-color: #198754;
 }

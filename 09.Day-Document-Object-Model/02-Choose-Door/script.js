@@ -2,50 +2,50 @@ const doorImage1 = document.getElementById("door_a")
 const doorImage2 = document.getElementById("door_b")
 const doorImage3 = document.getElementById("door_c")
 
-
 const flyDoorPath = "findfly.png"
 const forestDoorPath = "forest.png"
 const oceanDoorPath = "ocean.png"
 const closedDoorPath = 'door_closed.png'
 
-const start = document.getElementById("start")
+const startButton = document.getElementById("start")
 
 let numClosedDoors = 3;
 
 let openDoor1, openDoor2, openDoor3;
 
-let c1, c2, c3 = false
+playing = true
+
+
+//-----------------------------------------------------------
+
 
 doorImage1.onclick = () => {
-    if (!c1) {
-        c1 = true
+    if (playing && doorImage1.src.includes(closedDoorPath)) {
         doorImage1.src = openDoor1
-        console.log(numClosedDoors)
-        numClosedDoors--
+        playDoor(doorImage1)
     }
 }
 
 doorImage2.onclick = () => {
-    if (!c2) {
-        c2 = true
+    if (playing && doorImage2.src.includes(closedDoorPath)) {
         doorImage2.src = openDoor2
-        console.log(numClosedDoors)
-        numClosedDoors--
+        playDoor(doorImage2)
     }
 }
 
 doorImage3.onclick = () => {
-    if (!c3) {
-        c3 = true
+    if (playing && doorImage3.src.includes(closedDoorPath)) {
         doorImage3.src = openDoor3
-        console.log(numClosedDoors)
-        numClosedDoors--
+        playDoor(doorImage3)
     }
 }
 
-console.log(numClosedDoors)
 
-const random = function randomFindDoorGenerator() {
+//-----------------------------------------------------------
+
+
+
+function randomFindDoorGenerator() {
 
     let findDoor = Math.floor(Math.random() * 6)
     console.log(findDoor)
@@ -84,32 +84,44 @@ const random = function randomFindDoorGenerator() {
     }
 }
 
-random()
+randomFindDoorGenerator()
 
-if (numClosedDoors == 0) {
-    alert("Game Over")
+
+//-----------------------------------------------------------
+
+
+function playDoor(door) {
+
+    numClosedDoors--
+
+    if (numClosedDoors == 0) {
+        startButton.innerHTML = 'You win!<br>Play again?';
+        startButton.classList.add("start-row-win")
+        playing = false
+        
+
+    } else if (door.src.includes(flyDoorPath)) {
+        startButton.innerHTML = 'Game Over!<br>Play again?';
+        startButton.classList.add("start-row-lose")
+        playing = false
+    }
 }
 
-// function gameOver(){
-//     if (condition) {
 
-//     } else {
-
-//     }
-// }
-
-function playDoor() {
-
-}
+//-----------------------------------------------------------
 
 
-start.onclick = () => {
+startButton.onclick = () => {
+    startButton.innerHTML = 'Good<br>Luck!'
     doorImage1.src = closedDoorPath
     doorImage2.src = closedDoorPath
     doorImage3.src = closedDoorPath
     numClosedDoors = 3
-    c1 = false
-    c2 = false
-    c3 = false
-    random()
+    playing = true
+    startButton.classList.remove("start-row-win")
+    startButton.classList.remove("start-row-lose")
+    randomFindDoorGenerator()
 }
+
+
+//-----------------------------------------------------------
