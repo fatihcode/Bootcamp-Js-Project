@@ -59,5 +59,15 @@
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
+
+
+# Windows #
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+[Dd]esktop.ini
+*.lnk
+
+
+# Folders #
+/extras
