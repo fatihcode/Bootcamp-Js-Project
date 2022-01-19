@@ -2,10 +2,10 @@
 
 ## 01.Day [Variables]
 
-1. ☑BMI-Compare
-2. ☑Animal-Years
-3. ☑Length-Counter
-4. ☑Unit-Converter
+1. ✅BMI-Compare
+2. ✅Animal-Years
+3. ✅Length-Counter
+4. ✅Unit-Converter
 
 ## 02.Day [Conditionals]
 
@@ -67,8 +67,8 @@
 
 ## 09.Day [Document Object Model]
 
-1. ✅01-Dice-Challenge
-2. ✅02-Choose-Door
+1. ✅Dice-Challenge
+2. ✅Choose-Door
 
 ## 10.Day [Document Object Model]
 
