@@ -2,75 +2,81 @@
 
 ## 01.Day [Variables]
 
-* 01-BMI-Compare
-* 02-Animal-Years
-* 03-Length-Counter
-* 04-Unit-Converter
+1. ☑BMI-Compare
+2. ☑Animal-Years
+3. ☑Length-Counter
+4. ☑Unit-Converter
 
 ## 02.Day [Conditionals]
 
-* 01-Basketball-Game
-* 02-Race-Day
-* 03-Switch-Case
-* 04-Eigth-Ball
-* 05-Simple-Conditionals
+1. ✅Basketball-Game
+2. ✅Race-Day
+3. ✅Switch-Case
+4. ✅Eigth-Ball
+5. ✅Simple-Conditionals
 
 ## 03.Day [Functions]
 
-* 01-Small-Projects
-* 02-Tip-Calculator
-* 03-Get-Drink
-* 04-Study-Hard-Calculator
-* 05-Currency-Conversion
+1. ✅Small-Projects
+2. ✅Tip-Calculator
+3. ✅Get-Drink
+4. ✅Study-Hard-Calculator
+5. ✅Currency-Conversion
 
 ## 04.Day [Basic Arrays]
 
-* 01-Quote-Fix
-* 02-Phone-Fixer
-* 03-Student-Attendance
-* 04-Error-Handling
+1. ✅Quote-Fix
+2. ✅Phone-Fixer
+3. ✅Student-Attendance
+4. ✅Error-Handling
 
 ## 05.Day [Functions]
 
-* 01-Training-Days
-* 02-Who's-whashing
-* 03-Basketball
-* 04-Fibonacci-Generator
-* 05-Country-Filter
+1. ✅Training-Days
+2. ✅Who's-whashing
+3. ✅Basketball
+4. ✅Fibonacci-Generator
+5. ✅Country-Filter
 
 ## 06.Day [Arrays]
 
-* 01-Random-Quote
-* 02-Oxygen-Level
-* 03-Bush-Berries
-* 04-Street-Names
-* 05-Sort-Projects
-* 06-Find-Transport
-* 07-Array-Projects
+1. ✅Random-Quote
+2. ✅Oxygen-Level
+3. ✅Bush-Berries
+4. ✅Street-Names
+5. ✅Sort-Projects
+6. ✅Find-Transport
+7. ✅Array-Projects
 
 ## 07.Day [Basic Objects]
 
-* 01-Animal-Language
-* 02-Company-Filter
-* 03-Cripto-Maker
-* 04-Password-Validator
-* 05-Shapes
-* 06-Staff-Administration
-* 07-BMI-Compare
-  
+1. ✅Animal-Language
+2. ✅Company-Filter
+3. ✅Cripto-Maker
+4. ⬜Password-Validator
+5. ✅Shapes
+6. ✅Staff-Administration
+7. ✅BMI-Compare
+
 ## 08.Day [Objects]
 
-* 01-Animal-Select
-* 02-User-Select
-* 03-Person-Account
-* 04-Team-Selector
+1. ✅Animal-Select
+2. ✅User-Select
+3. ✅Person-Account
+4. ⬜Team-Selector
 
 ## 09.Day [Document Object Model]
 
-* 01-Dice-Challenge
-* 02-Choose-Door
+1. ✅01-Dice-Challenge
+2. ✅02-Choose-Door
 
 ## 10.Day [Document Object Model]
 
-* 01-Change-Color
-* 02-Quess-Number
+1. ✅Change-Color
+2. ✅Quess-Number
+
+## 11.Day [Document Object Model]
+
+1. ✅RPS-Project
+2. ✅Drum Kit
+3. ⬜Organize Library

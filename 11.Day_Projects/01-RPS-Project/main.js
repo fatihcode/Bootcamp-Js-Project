@@ -1,6 +1,4 @@
-const btnRock = document.getElementById("rock")
-const btnPaper = document.getElementById("paper")
-const btnScissors = document.getElementById("scissors")
+const button = document.querySelectorAll("button")
 
 const playerScore = document.getElementById("playerScore")
 const computerScore = document.getElementById("computerScore")
@@ -32,29 +30,6 @@ function random() {
 //----------------------------------------------------------
 
 
-btnRock.onclick = () => {
-    player.className = rock
-    random()
-    game()
-
-}
-
-btnPaper.onclick = () => {
-    player.className = paper
-    random()
-    game()
-}
-
-btnScissors.onclick = () => {
-    player.className = scissors
-    random()
-    game()
-}
-
-
-//----------------------------------------------------------
-
-
 function game() {
 
     if (player.className == computer.className) {
@@ -75,3 +50,12 @@ function game() {
 
     }
 }
+
+//----------------------------------------------------------
+
+
+button.forEach(item => item.onclick = () => {
+    random()
+    player.className = item.className
+    game()
+})
