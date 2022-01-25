@@ -75,13 +75,13 @@
 1. ✅Change-Color
 2. ✅Quess-Number
 
-## 11.Day [Document Object Model]
+## 11.Day [Classes]
 
 1. ✅RPS-Project
 2. ✅Drum-Kit
 3. ⬜Organize-Library
 
-## 12.Day [Class]
+## 12.Day [Promis]
 
 1. ✅Online-School
 2. ⬜Cake-Order
