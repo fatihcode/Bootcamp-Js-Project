@@ -78,5 +78,18 @@
 ## 11.Day [Document Object Model]
 
 1. ✅RPS-Project
-2. ✅Drum Kit
-3. ⬜Organize Library
+2. ✅Drum-Kit
+3. ⬜Organize-Library
+
+## 12.Day [Class]
+
+1. ✅Online-School
+2. ⬜Cake-Order
+3. ✅Load-Image
+
+## 13.Day [API]
+
+1. ✅Rebrandly
+2. ✅Country-Search
+3. ⬜Where-Am-I
+4. ⬜Wanderlust-With-Sports
