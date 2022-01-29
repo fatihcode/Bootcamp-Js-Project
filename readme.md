@@ -92,4 +92,8 @@
 1. ✅Rebrandly
 2. ✅Country-Search
 3. ⬜Where-Am-I
-4. ⬜Wanderlust-With-Sports
+
+## 14.Day [API]
+
+1. ✅Star-Wars
+2. ✅Wanderlust-With-Sports
