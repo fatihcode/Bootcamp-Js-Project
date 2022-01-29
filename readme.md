@@ -1,4 +1,4 @@
-# 30 Day Javascript Project
+# 15 Day Javascript Project
 
 ## 01.Day [Variables]
 
@@ -97,3 +97,7 @@
 
 1. ✅Star-Wars
 2. ✅Wanderlust-With-Sports
+
+## 15.Day [Graduation Project]
+
+1. ⬜Forkify
